@@ -1,4 +1,9 @@
-const CALENDAR_URL = `https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXB1Z2J0MTZwcWhpYmk3OG11ZmduYXZhbjYgMzg1MTk2ODMzNmNjZDQ5NDI1ZDBjNDNjMTVhYTA4M2JlZDQ1MTE3ZGE1YTg0YWViMDE1ZmExZjJmN2ZiNzM4MEBn&tmsrc=3851968336ccd49425d0c43c15aa083bed45117da5a84aeb015fa1f2f7fb7380%40group.calendar.google.com`;
+const CALENDAR_URL = `https://www.google.com/calendar/render?
+action=TEMPLATE&
+text=Nuestra%20Boda+Mariela+%26+Jared+%F0%9F%92%8C&
+location=Lienzo%20Charro%20San%20Miguel%2C%20R282%2B9W%2C%2034430%20Esfuerzos%20Unidos%2C%20Durango,%2C%20Mexico&
+details=Para%20nosotros%20es%20un%20honor%20poder%20compartir%20la%20alegr%C3%ADa%20de%20nuestro%20matrimonio%20contigo%20y%20tus%20seres%20amados%2C%20por%20eso%20nos%20gustar%C3%ADa%20que%20nos%20acompa%C3%B1en%20el%20d%C3%ADa%2030%20de%20Diciembre%20de%20este%202023%20a%20las%2012%20hrs%20en%20el%20templo%20San%20Juan%20Bautista%20de%20la%20comunidad%20de%20Esfuerzos%20Unidos%2C%20Nuevo%20Ideal%2C%20Durango.%0A%0ANos%20encantar%C3%ADa%20que%20nos%20acompa%C3%B1en%20y%2Fo%20nos%20escriban%20sus%20mejores%20deseos%20en%20el%20siguiente%20link%0A%3A%0Ahttps%3A%2F%2Fwww.marielayjared.com%2F%0A%0A%C2%A1Gracias%20por%20ser%20parte%20de%20uno%20de%20los%20mejores%20d%C3%ADas%20de%20nuestras%20vidas%21%0A%0AAtentamente%20los%20novios%2C%0AMariela%20%26%20Jared&
+dates=20231230T120000Z%2F20231230T020000Z`;
 
 const Agendas = () => {
   return (
@@ -16,7 +21,7 @@ const Agendas = () => {
           className="px-8 py-4 transition-all text-lg font-semibold w-full rounded-lg bg-contrast hover:bg-contrast-2 outline-contrast-3 text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer"
           rel="noreferrer"
         >
-          Agregar A Mi Calendario
+          Agregar a mi calendario
         </a>
       </div>
 
