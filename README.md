@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
 
-I built this website for my personal wedding website [marielayjared.com](https://www.marielayjared.com/?to=Rekan+Developer).
+I built this website for my personal wedding website [marielayjared.com](https://www.marielayjared.com/).
 Available features:
 
 - Welcome modal connected to Google Sheet

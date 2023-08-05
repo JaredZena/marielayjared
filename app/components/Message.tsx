@@ -123,7 +123,7 @@ const Message = ({ isMobile }: MessageProps) => {
               </fieldset>
 
               {fetcher.data?.ok === false && (
-                <p className="pt-4 text-red-500">Gagal mengirim pesan.</p>
+                <p className="pt-4 text-red-500">¡Ocurrió un error al enviar el mensaje!</p>
               )}
             </form>
           </div>

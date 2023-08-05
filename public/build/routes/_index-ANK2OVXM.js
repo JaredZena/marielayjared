@@ -2028,17 +2028,22 @@ init_filename();
 init_buffer();
 init_process();
 var import_jsx_dev_runtime6 = __toESM(require_jsx_dev_runtime());
-var CALENDAR_URL = `https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXB1Z2J0MTZwcWhpYmk3OG11ZmduYXZhbjYgMzg1MTk2ODMzNmNjZDQ5NDI1ZDBjNDNjMTVhYTA4M2JlZDQ1MTE3ZGE1YTg0YWViMDE1ZmExZjJmN2ZiNzM4MEBn&tmsrc=3851968336ccd49425d0c43c15aa083bed45117da5a84aeb015fa1f2f7fb7380%40group.calendar.google.com`;
+var CALENDAR_URL = `https://www.google.com/calendar/render?
+action=TEMPLATE&
+text=Nuestra%20Boda+Mariela+%26+Jared+%F0%9F%92%8C&
+location=Lienzo%20Charro%20San%20Miguel%2C%20R282%2B9W%2C%2034430%20Esfuerzos%20Unidos%2C%20Durango,%2C%20Mexico&
+details=Para%20nosotros%20es%20un%20honor%20poder%20compartir%20la%20alegr%C3%ADa%20de%20nuestro%20matrimonio%20contigo%20y%20tus%20seres%20amados%2C%20por%20eso%20nos%20gustar%C3%ADa%20que%20nos%20acompa%C3%B1en%20el%20d%C3%ADa%2030%20de%20Diciembre%20de%20este%202023%20a%20las%2012%20hrs%20en%20el%20templo%20San%20Juan%20Bautista%20de%20la%20comunidad%20de%20Esfuerzos%20Unidos%2C%20Nuevo%20Ideal%2C%20Durango.%0A%0ANos%20encantar%C3%ADa%20que%20nos%20acompa%C3%B1en%20y%2Fo%20nos%20escriban%20sus%20mejores%20deseos%20en%20el%20siguiente%20link%3A%0A%0Ahttps%3A%2F%2Fwww.marielayjared.com%2F%0A%0A%C2%A1Gracias%20por%20ser%20parte%20de%20uno%20de%20los%20mejores%20d%C3%ADas%20de%20nuestras%20vidas%21%0A%0AAtentamente%20los%20novios%2C%0AMariela%20%26%20Jared&
+dates=20231230T120000Z%2F20231230T020000Z`;
 var Agendas = () => {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "max-w-3xl mx-auto text-center", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "mb-4 text-gray-500 font-head md:text-lg font-medium", children: "Te esperamos el:" }, void 0, false, {
       fileName: "app/components/Agendas.tsx",
-      lineNumber: 6,
+      lineNumber: 11,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h3", { className: "text-3xl md:text-4xl font-black mb-6 text-cente text-gray-700 font-sans", children: "SABADO, DICIEMBRE 30 2023" }, void 0, false, {
       fileName: "app/components/Agendas.tsx",
-      lineNumber: 9,
+      lineNumber: 14,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "px-12 flex max-w-md mx-auto mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -2048,56 +2053,56 @@ var Agendas = () => {
         target: "_blank",
         className: "px-8 py-4 transition-all text-lg font-semibold w-full rounded-lg bg-contrast hover:bg-contrast-2 outline-contrast-3 text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer",
         rel: "noreferrer",
-        children: "Agregar A Mi Calendario"
+        children: "Agregar a mi calendario"
       },
       void 0,
       false,
       {
         fileName: "app/components/Agendas.tsx",
-        lineNumber: 13,
+        lineNumber: 18,
         columnNumber: 9
       },
       this
     ) }, void 0, false, {
       fileName: "app/components/Agendas.tsx",
-      lineNumber: 12,
+      lineNumber: 17,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl font-black", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "MISA" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
-        lineNumber: 24,
+        lineNumber: 29,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "12:00 PM" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
-        lineNumber: 27,
+        lineNumber: 32,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/Agendas.tsx",
-      lineNumber: 23,
+      lineNumber: 28,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl  font-black", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "RECEPCION" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
-        lineNumber: 33,
+        lineNumber: 38,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "2:00 PM" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
-        lineNumber: 36,
+        lineNumber: 41,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/Agendas.tsx",
-      lineNumber: 32,
+      lineNumber: 37,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/Agendas.tsx",
-    lineNumber: 5,
+    lineNumber: 10,
     columnNumber: 5
   }, this);
 };
@@ -4809,7 +4814,7 @@ var Message = ({ isMobile }) => {
               lineNumber: 99,
               columnNumber: 15
             }, this),
-            ((_a = fetcher.data) == null ? void 0 : _a.ok) === false && /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "pt-4 text-red-500", children: "Gagal mengirim pesan." }, void 0, false, {
+            ((_a = fetcher.data) == null ? void 0 : _a.ok) === false && /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "pt-4 text-red-500", children: "\xA1Ocurri\xF3 un error al enviar el mensaje!" }, void 0, false, {
               fileName: "app/components/Message.tsx",
               lineNumber: 126,
               columnNumber: 17
@@ -6275,4 +6280,4 @@ react-responsive/dist/react-responsive.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=/build/routes/_index-OTCR2E2A.js.map
+//# sourceMappingURL=/build/routes/_index-ANK2OVXM.js.map
