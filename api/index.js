@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "75fd9e11", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-J23IE2RW.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-ANK2OVXM.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-75FD9E11.js" };
+    assets_manifest_default = { version: "8f3b0643", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-J23IE2RW.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-G5ONKUDG.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-8F3B0643.js" };
   }
 });
 
@@ -477,10 +477,10 @@ var indexLoader = async ({ request }) => {
 var import_react_responsive = require("react-responsive");
 
 // app/images/hero-bg.jpg
-var hero_bg_default = "/build/_assets/hero-bg-546TJ7BD.jpg";
+var hero_bg_default = "/build/_assets/hero-bg-DLVUPJM7.jpg";
 
 // app/images/hero-bg-mobile.jpg
-var hero_bg_mobile_default = "/build/_assets/hero-bg-mobile-546TJ7BD.jpg";
+var hero_bg_mobile_default = "/build/_assets/hero-bg-mobile-VA2PIFQW.jpg";
 
 // app/components/Utils/SectionWrapper.tsx
 var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), SectionWrapper = ({ children, className }) => /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className, children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "max-w-7xl mx-auto px-0 md:px-16", children }, void 0, !1, {
@@ -494,14 +494,14 @@ var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), SectionWrapper =
 }, this), SectionWrapper_default = SectionWrapper;
 
 // app/images/mariela-img.png
-var mariela_img_default = "/build/_assets/mariela-img-KBSWDQIS.png";
+var mariela_img_default = "/build/_assets/mariela-img-UFVFMARK.png";
 
 // app/images/jared-img.png
-var jared_img_default = "/build/_assets/jared-img-DNWO4Z3Q.png";
+var jared_img_default = "/build/_assets/jared-img-2MXSQ5E5.png";
 
 // app/components/BrideAndGroom.tsx
 var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), BrideAndGroom = () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "pt-20 pb-4", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h3", { className: "text-3xl text-center font-sans font-bold text-gray-700 mb-6", children: "Los Novios" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h3", { className: "text-3xl text-center font-sans font-bold text-gray-700 mb-6", children: "Nuestra boda" }, void 0, !1, {
     fileName: "app/components/BrideAndGroom.tsx",
     lineNumber: 8,
     columnNumber: 7
@@ -701,15 +701,6 @@ var import_react5 = require("react"), import_jsx_dev_runtime7 = require("react/j
       fileName: "app/components/Countdown.tsx",
       lineNumber: 51,
       columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "text-3xl font-head font-bold text-center mb-10 text-gray-700 px-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { className: "mb-1", children: "Para Nuestra Boda" }, void 0, !1, {
-      fileName: "app/components/Countdown.tsx",
-      lineNumber: 59,
-      columnNumber: 9
-    }, this) }, void 0, !1, {
-      fileName: "app/components/Countdown.tsx",
-      lineNumber: 58,
-      columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Countdown.tsx",
@@ -723,17 +714,17 @@ var NumberCard = (0, import_react5.memo)(({ number, label }) => {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "text-3xl mb-2", children: numberString }, void 0, !1, {
       fileName: "app/components/Countdown.tsx",
-      lineNumber: 77,
+      lineNumber: 73,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { children: label }, void 0, !1, {
       fileName: "app/components/Countdown.tsx",
-      lineNumber: 78,
+      lineNumber: 74,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Countdown.tsx",
-    lineNumber: 76,
+    lineNumber: 72,
     columnNumber: 5
   }, this);
 });
@@ -752,7 +743,7 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
     lineNumber: 11,
     columnNumber: 7
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h3", { className: "text-3xl md:text-4xl font-black mb-6 text-cente text-gray-700 font-sans", children: "SABADO, DICIEMBRE 30 2023" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h3", { className: "text-3xl md:text-4xl font-black mb-6 text-cente text-gray-700 font-sans", children: "SABADO, 30 DE DICIEMBRE DEL 2023" }, void 0, !1, {
     fileName: "app/components/Agendas.tsx",
     lineNumber: 14,
     columnNumber: 7
@@ -785,7 +776,7 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
       lineNumber: 29,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "12:00 PM" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "2:00 PM" }, void 0, !1, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 32,
       columnNumber: 9
@@ -801,7 +792,7 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
       lineNumber: 38,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "2:00 PM" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "4:00 PM" }, void 0, !1, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 41,
       columnNumber: 9
@@ -1280,37 +1271,37 @@ var import_react8 = require("react"), import_jsx_dev_runtime11 = require("react/
 }, MusicPlayer_default = MusicPlayer;
 
 // app/images/ogimage.jpg
-var ogimage_default = "/build/_assets/ogimage-546TJ7BD.jpg";
+var ogimage_default = "/build/_assets/ogimage-QSSW72EG.jpg";
 
 // app/components/GalleryPhotos.tsx
 var import_react10 = require("react");
 
 // app/images/foto1.jpg
-var foto1_default = "/build/_assets/foto1-WANKXFFX.jpg";
+var foto1_default = "/build/_assets/foto1-QA6R77NZ.jpg";
 
 // app/images/foto2.jpg
-var foto2_default = "/build/_assets/foto2-X7HIJWND.jpg";
+var foto2_default = "/build/_assets/foto2-MBQIHDD5.jpg";
 
 // app/images/foto3.jpg
-var foto3_default = "/build/_assets/foto3-MADZTK7L.jpg";
+var foto3_default = "/build/_assets/foto3-WANKXFFX.jpg";
 
 // app/images/foto4.jpg
-var foto4_default = "/build/_assets/foto4-X5BLQHVA.jpg";
+var foto4_default = "/build/_assets/foto4-BNEYWVA6.jpg";
 
 // app/images/foto5.jpg
-var foto5_default = "/build/_assets/foto5-AWWQWOFY.jpg";
+var foto5_default = "/build/_assets/foto5-ZK24NBNH.jpg";
 
 // app/images/foto6.jpg
-var foto6_default = "/build/_assets/foto6-5PWCRCK3.jpg";
+var foto6_default = "/build/_assets/foto6-HFQHIRNR.jpg";
 
 // app/images/foto7.jpg
-var foto7_default = "/build/_assets/foto7-ZK24NBNH.jpg";
+var foto7_default = "/build/_assets/foto7-JUXZGTQV.jpg";
 
 // app/images/foto8.jpg
-var foto8_default = "/build/_assets/foto8-ZSWFKDMX.jpg";
+var foto8_default = "/build/_assets/foto8-EX535T3I.jpg";
 
 // app/images/foto9.jpg
-var foto9_default = "/build/_assets/foto9-HFQHIRNR.jpg";
+var foto9_default = "/build/_assets/foto9-OV6ERFHT.jpg";
 
 // app/components/Gallery/Gallery.tsx
 var import_react9 = require("react");
@@ -1571,7 +1562,7 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), photos = [
   return (0, import_react10.useEffect)(() => {
     isHydrating = !1, setIsHydrated(!0);
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-10 text-gray-700", children: "Algunos de Nuestros Momentoss" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-10 text-gray-700", children: "Momentos" }, void 0, !1, {
       fileName: "app/components/GalleryPhotos.tsx",
       lineNumber: 83,
       columnNumber: 7

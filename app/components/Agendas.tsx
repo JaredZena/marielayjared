@@ -12,7 +12,7 @@ const Agendas = () => {
         Te esperamos el:
       </div>
       <h3 className="text-3xl md:text-4xl font-black mb-6 text-cente text-gray-700 font-sans">
-        SABADO, DICIEMBRE 30 2023
+        SABADO, 30 DE DICIEMBRE DEL 2023
       </h3>
       <div className="px-12 flex max-w-md mx-auto mb-10">
         <a
@@ -30,7 +30,7 @@ const Agendas = () => {
           MISA
         </div>
         <div className="col-span-1 text-gray-700 text-right md:text-center font-sans">
-          12:00 PM
+          2:00 PM
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const Agendas = () => {
           RECEPCION
         </div>
         <div className="col-span-1 text-gray-700 text-right md:text-center font-sans">
-          2:00 PM
+          4:00 PM
         </div>
       </div>
     </div>

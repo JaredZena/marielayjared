@@ -54,10 +54,6 @@ const Countdown = memo(() => {
         <NumberCard number={countdown.minutes} label="Minutos" />
         <NumberCard number={countdown.seconds} label="Segundos" />
       </div>
-
-      <div className="text-3xl font-head font-bold text-center mb-10 text-gray-700 px-2">
-        <h4 className="mb-1">Para Nuestra Boda</h4>
-      </div>
     </div>
   );
 });

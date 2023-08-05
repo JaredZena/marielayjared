@@ -6,7 +6,7 @@ const BrideAndGroom = () => {
   return (
     <div className="pt-20 pb-4">
       <h3 className="text-3xl text-center font-sans font-bold text-gray-700 mb-6">
-        Los Novios
+        Nuestra boda
       </h3>
       <div className="w-full flex flex-wrap pb-20">
         <div className="w-full md:w-1/2 px-4">
