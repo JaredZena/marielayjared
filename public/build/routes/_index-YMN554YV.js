@@ -1751,10 +1751,10 @@ init_buffer();
 init_process();
 
 // app/images/mariela-img.png
-var mariela_img_default = "/build/_assets/mariela-img-UFVFMARK.png";
+var mariela_img_default = "/build/_assets/mariela-img-EANRWFON.png";
 
 // app/images/jared-img.png
-var jared_img_default = "/build/_assets/jared-img-2MXSQ5E5.png";
+var jared_img_default = "/build/_assets/jared-img-FAOFDYQG.png";
 
 // app/components/BrideAndGroom.tsx
 var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime());
@@ -1796,27 +1796,6 @@ var BrideAndGroom = () => {
           fileName: "app/components/BrideAndGroom.tsx",
           lineNumber: 22,
           columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { className: "font-sans text-gray-500 leading-6", children: [
-          "Nacio el 9 de septiembre de 1994 en Durango, Mexico. Sus padres: ",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("strong", { children: "Isabel Nevarez" }, void 0, false, {
-            fileName: "app/components/BrideAndGroom.tsx",
-            lineNumber: 27,
-            columnNumber: 15
-          }, this),
-          " y",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("strong", { children: "Vicente Gomez" }, void 0, false, {
-            fileName: "app/components/BrideAndGroom.tsx",
-            lineNumber: 28,
-            columnNumber: 15
-          }, this),
-          "."
-        ] }, void 0, true, {
-          fileName: "app/components/BrideAndGroom.tsx",
-          lineNumber: 25,
-          columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/BrideAndGroom.tsx",
@@ -1840,63 +1819,41 @@ var BrideAndGroom = () => {
             false,
             {
               fileName: "app/components/BrideAndGroom.tsx",
-              lineNumber: 36,
+              lineNumber: 31,
               columnNumber: 15
             },
             this
           ),
           /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h3", { className: "text-5xl font-medium font-head mb-4 text-gray-800", children: "Jared Zena" }, void 0, false, {
             fileName: "app/components/BrideAndGroom.tsx",
-            lineNumber: 41,
+            lineNumber: 36,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
           fileName: "app/components/BrideAndGroom.tsx",
-          lineNumber: 35,
+          lineNumber: 30,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex flex-col items-center", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "mb-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextWithLine_default, { children: "Novio" }, void 0, false, {
-            fileName: "app/components/BrideAndGroom.tsx",
-            lineNumber: 47,
-            columnNumber: 17
-          }, this) }, void 0, false, {
-            fileName: "app/components/BrideAndGroom.tsx",
-            lineNumber: 46,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { className: "font-sans text-gray-500 leading-6", children: [
-            "Nacio el 1ro de enero de 1995 en Durango, Durango. Sus padres: ",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("strong", { children: "Blanca Estela Hernandez" }, void 0, false, {
-              fileName: "app/components/BrideAndGroom.tsx",
-              lineNumber: 50,
-              columnNumber: 80
-            }, this),
-            " y",
-            " ",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("strong", { children: "Petronilo Gonzalez" }, void 0, false, {
-              fileName: "app/components/BrideAndGroom.tsx",
-              lineNumber: 51,
-              columnNumber: 17
-            }, this),
-            "."
-          ] }, void 0, true, {
-            fileName: "app/components/BrideAndGroom.tsx",
-            lineNumber: 49,
-            columnNumber: 15
-          }, this)
-        ] }, void 0, true, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex flex-col items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "mb-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextWithLine_default, { children: "Novio" }, void 0, false, {
           fileName: "app/components/BrideAndGroom.tsx",
-          lineNumber: 45,
+          lineNumber: 42,
+          columnNumber: 17
+        }, this) }, void 0, false, {
+          fileName: "app/components/BrideAndGroom.tsx",
+          lineNumber: 41,
+          columnNumber: 15
+        }, this) }, void 0, false, {
+          fileName: "app/components/BrideAndGroom.tsx",
+          lineNumber: 40,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/BrideAndGroom.tsx",
-        lineNumber: 34,
+        lineNumber: 29,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/components/BrideAndGroom.tsx",
-        lineNumber: 33,
+        lineNumber: 28,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
@@ -6048,8 +6005,104 @@ var GalleryPhotos = () => {
 };
 var GalleryPhotos_default = GalleryPhotos;
 
-// app/routes/_index.tsx
+// app/components/Prayer.tsx
+init_global();
+init_dirname();
+init_filename();
+init_buffer();
+init_process();
 var import_jsx_dev_runtime12 = __toESM(require_jsx_dev_runtime());
+var Prayer = () => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "py-10 bg-gray-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-center text-xl text-gray-800 mb-6 font-script", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor es paciente y bondadoso." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 8,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no es envidioso." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 11,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "No es presumido ni orgulloso." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 14,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no es descort\xE9s ni ego\xEDsta." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 17,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "No se enoja f\xE1cilmente." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 20,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no lleva cuenta de las ofensas." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 23,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "No se alegra de la injusticia, sino de la verdad." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 26,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor acepta todo con paciencia." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 29,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Siempre conf\xEDa." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 32,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Nunca pierde la esperanza." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 35,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Todo lo soporta." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 38,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no tiene fin." }, void 0, false, {
+        fileName: "app/components/Prayer.tsx",
+        lineNumber: 41,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/Prayer.tsx",
+      lineNumber: 7,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-center text-lg font-semibold text-gray-700 font-script", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Corintios 13:4-8" }, void 0, false, {
+      fileName: "app/components/Prayer.tsx",
+      lineNumber: 46,
+      columnNumber: 11
+    }, this) }, void 0, false, {
+      fileName: "app/components/Prayer.tsx",
+      lineNumber: 45,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Prayer.tsx",
+    lineNumber: 6,
+    columnNumber: 7
+  }, this) }, void 0, false, {
+    fileName: "app/components/Prayer.tsx",
+    lineNumber: 5,
+    columnNumber: 5
+  }, this);
+};
+var Prayer_default = Prayer;
+
+// app/routes/_index.tsx
+var import_jsx_dev_runtime13 = __toESM(require_jsx_dev_runtime());
 var meta = () => {
   return [
     {
@@ -6097,24 +6150,24 @@ function Index() {
     setIsMobile(isSmallScreen);
   }, [isSmallScreen]);
   const thisYear = (/* @__PURE__ */ new Date()).getFullYear();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
     "div",
     {
       style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" },
       className: "bg-background-2",
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(WelcomeModal, { isOpen: openWelcome, onClose: onCloseWelcomeModal }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(WelcomeModal, { isOpen: openWelcome, onClose: onCloseWelcomeModal }, void 0, false, {
           fileName: "app/routes/_index.tsx",
-          lineNumber: 87,
+          lineNumber: 88,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
           "div",
           {
             className: "flex justify-center items-center h-screen md:h-[750px] bg-no-repeat bg-center bg-cover",
             style: { backgroundImage: `url(${isMobile ? hero_bg_mobile_default : hero_bg_default})` },
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mb-1", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-1", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
                 "h4",
                 {
                   className: "text-center font-head font-bold text-5xl mb-4 text-[#EFEFEF]",
@@ -6125,12 +6178,12 @@ function Index() {
                 false,
                 {
                   fileName: "app/routes/_index.tsx",
-                  lineNumber: 94,
+                  lineNumber: 95,
                   columnNumber: 11
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
                 "div",
                 {
                   className: "text-center font-black font-sans text-md text-[#EFEFEF] italic border-t-2 border-[#B7410E] pt-3",
@@ -6141,14 +6194,14 @@ function Index() {
                 false,
                 {
                   fileName: "app/routes/_index.tsx",
-                  lineNumber: 100,
+                  lineNumber: 101,
                   columnNumber: 11
                 },
                 this
               )
             ] }, void 0, true, {
               fileName: "app/routes/_index.tsx",
-              lineNumber: 93,
+              lineNumber: 94,
               columnNumber: 9
             }, this)
           },
@@ -6156,86 +6209,95 @@ function Index() {
           false,
           {
             fileName: "app/routes/_index.tsx",
-            lineNumber: 89,
+            lineNumber: 90,
             columnNumber: 7
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(SectionWrapper_default, { className: "bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(BrideAndGroom_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Prayer_default, {}, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 111,
+          columnNumber: 9
+        }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 110,
-          columnNumber: 9
-        }, this) }, void 0, false, {
-          fileName: "app/routes/_index.tsx",
-          lineNumber: 109,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Agendas_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(BrideAndGroom_default, {}, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 115,
+          columnNumber: 9
+        }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 114,
-          columnNumber: 9
-        }, this) }, void 0, false, {
-          fileName: "app/routes/_index.tsx",
-          lineNumber: 113,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(SectionWrapper_default, { className: "mb-36 pt-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Countdown_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36 pt-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Countdown_default, {}, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 119,
+          columnNumber: 9
+        }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 118,
-          columnNumber: 9
-        }, this) }, void 0, false, {
-          fileName: "app/routes/_index.tsx",
-          lineNumber: 117,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(LocationMap_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Agendas_default, {}, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 123,
+          columnNumber: 9
+        }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 122,
-          columnNumber: 9
-        }, this) }, void 0, false, {
-          fileName: "app/routes/_index.tsx",
-          lineNumber: 121,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(GalleryPhotos_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(LocationMap_default, {}, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 127,
+          columnNumber: 9
+        }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 126,
-          columnNumber: 9
-        }, this) }, void 0, false, {
-          fileName: "app/routes/_index.tsx",
-          lineNumber: 125,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Message_default, { isMobile }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(GalleryPhotos_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 131,
-          columnNumber: 11
+          columnNumber: 9
         }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 130,
+          columnNumber: 7
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Message_default, { isMobile }, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 136,
+          columnNumber: 11
+        }, this) }, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 135,
           columnNumber: 9
         }, this) }, void 0, false, {
           fileName: "app/routes/_index.tsx",
-          lineNumber: 129,
+          lineNumber: 134,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "py-24 bg-background text-gray-700 relative text-center font-sans", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "py-24 bg-background text-gray-700 relative text-center font-sans", children: [
           "\xA9 ",
           thisYear,
           " by ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("span", { className: "font-semibold", children: "Jared" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "font-semibold", children: "Jared" }, void 0, false, {
             fileName: "app/routes/_index.tsx",
-            lineNumber: 140,
+            lineNumber: 145,
             columnNumber: 25
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/_index.tsx",
-          lineNumber: 139,
+          lineNumber: 144,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(MusicPlayer_default, { play: !openWelcome }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(MusicPlayer_default, { play: !openWelcome }, void 0, false, {
           fileName: "app/routes/_index.tsx",
-          lineNumber: 143,
+          lineNumber: 148,
           columnNumber: 7
         }, this)
       ]
@@ -6244,7 +6306,7 @@ function Index() {
     true,
     {
       fileName: "app/routes/_index.tsx",
-      lineNumber: 83,
+      lineNumber: 84,
       columnNumber: 5
     },
     this
@@ -6271,4 +6333,4 @@ react-responsive/dist/react-responsive.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=/build/routes/_index-G5ONKUDG.js.map
+//# sourceMappingURL=/build/routes/_index-YMN554YV.js.map

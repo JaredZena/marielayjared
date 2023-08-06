@@ -22,11 +22,6 @@ const BrideAndGroom = () => {
             <div className="mb-4">
               <TextWithLine>Novia</TextWithLine>
             </div>
-            <p className="font-sans text-gray-500 leading-6">
-              Nacio el 9 de septiembre de 1994 en Durango, Mexico. Sus padres: {" "}
-              <strong>Isabel Nevarez</strong> y{" "}
-              <strong>Vicente Gomez</strong>.
-            </p>
           </div>
         </div>
 
@@ -46,10 +41,6 @@ const BrideAndGroom = () => {
               <div className="mb-4">
                 <TextWithLine>Novio</TextWithLine>
               </div>
-              <p className="font-sans text-gray-500 leading-6">
-                Nacio el 1ro de enero de 1995 en Durango, Durango. Sus padres: <strong>Blanca Estela Hernandez</strong> y{" "}
-                <strong>Petronilo Gonzalez</strong>.
-              </p>
             </div>
           </div>
         </div>

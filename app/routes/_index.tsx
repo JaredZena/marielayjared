@@ -18,6 +18,7 @@ import DigitalEnvelope from "~/components/DigitalEnvelope";
 import MusicPlayer from "~/components/MusicPlayer";
 import ogimage from "~/images/ogimage.jpg";
 import GalleryPhotos from "~/components/GalleryPhotos";
+import Prayer from "~/components/Prayer";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -106,16 +107,20 @@ export default function Index() {
         </div>
       </div>
 
+      <SectionWrapper className="mb-36">
+        <Prayer />
+      </SectionWrapper>
+
       <SectionWrapper className="bg-background">
         <BrideAndGroom />
       </SectionWrapper>
 
-      <SectionWrapper className="mb-36">
-        <Agendas />
-      </SectionWrapper>
-
       <SectionWrapper className="mb-36 pt-24">
         <Countdown />
+      </SectionWrapper>
+
+      <SectionWrapper className="mb-36">
+        <Agendas />
       </SectionWrapper>
 
       <div className="mb-24">
