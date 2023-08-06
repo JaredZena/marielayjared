@@ -42,6 +42,15 @@ const Agendas = () => {
           4:00 PM
         </div>
       </div>
+
+      <div className="grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl  font-black">
+        <div className="col-span-1 text-gray-400 text-left md:text-center font-sans">
+          BAILE
+        </div>
+        <div className="col-span-1 text-gray-700 text-right md:text-center font-sans">
+          8:00 PM
+        </div>
+      </div>
     </div>
   );
 };

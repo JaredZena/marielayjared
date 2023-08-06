@@ -1721,7 +1721,7 @@ var import_react_responsive = __toESM(require_react_responsive());
 var hero_bg_default = "/build/_assets/hero-bg-DLVUPJM7.jpg";
 
 // app/images/hero-bg-mobile.jpg
-var hero_bg_mobile_default = "/build/_assets/hero-bg-mobile-VA2PIFQW.jpg";
+var hero_bg_mobile_default = "/build/_assets/hero-bg-mobile-YXPBS2MA.jpg";
 
 // app/components/Utils/SectionWrapper.tsx
 init_global();
@@ -2046,6 +2046,22 @@ var Agendas = () => {
     ] }, void 0, true, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 37,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl  font-black", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "BAILE" }, void 0, false, {
+        fileName: "app/components/Agendas.tsx",
+        lineNumber: 47,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "8:00 PM" }, void 0, false, {
+        fileName: "app/components/Agendas.tsx",
+        lineNumber: 50,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/Agendas.tsx",
+      lineNumber: 46,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -5063,7 +5079,7 @@ var foto1_default = "/build/_assets/foto1-QA6R77NZ.jpg";
 var foto2_default = "/build/_assets/foto2-MBQIHDD5.jpg";
 
 // app/images/foto3.jpg
-var foto3_default = "/build/_assets/foto3-WANKXFFX.jpg";
+var foto3_default = "/build/_assets/foto3-HD23NNAF.jpg";
 
 // app/images/foto4.jpg
 var foto4_default = "/build/_assets/foto4-BNEYWVA6.jpg";
@@ -6333,4 +6349,4 @@ react-responsive/dist/react-responsive.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=/build/routes/_index-YMN554YV.js.map
+//# sourceMappingURL=/build/routes/_index-2UXJTTRI.js.map
