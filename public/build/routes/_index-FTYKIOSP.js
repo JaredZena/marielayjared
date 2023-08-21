@@ -1765,8 +1765,8 @@ var BrideAndGroom = () => {
       lineNumber: 8,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full flex flex-wrap pb-20", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full md:w-1/2 px-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex flex-col items-center py-14 sm:px-8 lg:p-20 text-center", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full flex flex-wrap", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "w-full md:w-1/2 px-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex flex-col items-center py-6 sm:px-8 lg:p-20 text-center", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(
           "img",
           {
@@ -1905,7 +1905,7 @@ var Countdown = (0, import_react3.memo)(() => {
     }, 1e3);
   }, []);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "text-3xl font-head font-bold text-center mb-10 pt-10 text-gray-700 px-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h4", { className: "mb-1", children: "Faltan:" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "text-3xl font-head font-bold text-center text-gray-700 px-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h4", { className: "mb-1", children: "Faltan:" }, void 0, false, {
       fileName: "app/components/Countdown.tsx",
       lineNumber: 48,
       columnNumber: 9
@@ -2022,7 +2022,7 @@ var Agendas = () => {
         lineNumber: 29,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "2:00 PM" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "1:00 PM" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
         lineNumber: 32,
         columnNumber: 9
@@ -2038,7 +2038,7 @@ var Agendas = () => {
         lineNumber: 38,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "4:00 PM" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "3:00 PM" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
         lineNumber: 41,
         columnNumber: 9
@@ -2049,12 +2049,12 @@ var Agendas = () => {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl  font-black", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "BAILE" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "VALS" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
         lineNumber: 47,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "8:00 PM" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "7:00 PM" }, void 0, false, {
         fileName: "app/components/Agendas.tsx",
         lineNumber: 50,
         columnNumber: 9
@@ -5999,7 +5999,7 @@ var GalleryPhotos = () => {
     setIsHydrated(true);
   }, []);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-10 text-gray-700", children: "Momentos" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-6 text-gray-700", children: "Momentos" }, void 0, false, {
       fileName: "app/components/GalleryPhotos.tsx",
       lineNumber: 83,
       columnNumber: 7
@@ -6029,8 +6029,8 @@ init_buffer();
 init_process();
 var import_jsx_dev_runtime12 = __toESM(require_jsx_dev_runtime());
 var Prayer = () => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "py-10 bg-gray-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-center text-xl text-gray-800 mb-6 font-script", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-3xl mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-12 text-center font-medium font-head text-gray-600 italic mx-3", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor es paciente y bondadoso." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 8,
@@ -6230,7 +6230,7 @@ function Index() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Prayer_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Prayer_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 111,
           columnNumber: 9
@@ -6248,7 +6248,7 @@ function Index() {
           lineNumber: 114,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36 pt-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Countdown_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mt-12 mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Agendas_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 119,
           columnNumber: 9
@@ -6257,7 +6257,7 @@ function Index() {
           lineNumber: 118,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Agendas_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Countdown_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 123,
           columnNumber: 9
@@ -6266,7 +6266,7 @@ function Index() {
           lineNumber: 122,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(LocationMap_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(LocationMap_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 127,
           columnNumber: 9
@@ -6275,7 +6275,7 @@ function Index() {
           lineNumber: 126,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(GalleryPhotos_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(GalleryPhotos_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 131,
           columnNumber: 9
@@ -6349,4 +6349,4 @@ react-responsive/dist/react-responsive.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=/build/routes/_index-2UXJTTRI.js.map
+//# sourceMappingURL=/build/routes/_index-FTYKIOSP.js.map

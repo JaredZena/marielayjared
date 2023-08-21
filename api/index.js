@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "4c56118f", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2QUOJ67D.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-2UXJTTRI.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-4C56118F.js" };
+    assets_manifest_default = { version: "c10aef14", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Z766OFTI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-FTYKIOSP.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-C10AEF14.js" };
   }
 });
 
@@ -173,7 +173,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server()), import_react2 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-GKN7TPGN.css";
+var tailwind_default = "/build/_assets/tailwind-A5OXQSYG.css";
 
 // node_modules/react-photo-view/dist/react-photo-view.css
 var react_photo_view_default = "/build/_assets/react-photo-view-7Z2GU4I5.css";
@@ -196,6 +196,10 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
     href: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
   },
   {
+    href: "https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap",
+    rel: "stylesheet"
+  },
+  {
     rel: "stylesheet",
     href: "https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
   }
@@ -205,58 +209,58 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("meta", { charSet: "utf-8" }, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 41,
+        lineNumber: 45,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 42,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 43,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Links, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 44,
+        lineNumber: 48,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 40,
+      lineNumber: 44,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { suppressHydrationWarning: !0, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Outlet, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 47,
+        lineNumber: 51,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 48,
+        lineNumber: 52,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 49,
+        lineNumber: 53,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 50,
+        lineNumber: 54,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.tsx",
-    lineNumber: 39,
+    lineNumber: 43,
     columnNumber: 5
   }, this);
 }
@@ -506,8 +510,8 @@ var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), BrideAndGroom = 
     lineNumber: 8,
     columnNumber: 7
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "w-full flex flex-wrap pb-20", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "w-full md:w-1/2 px-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col items-center py-14 sm:px-8 lg:p-20 text-center", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "w-full flex flex-wrap", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "w-full md:w-1/2 px-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col items-center py-6 sm:px-8 lg:p-20 text-center", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
         "img",
         {
@@ -624,7 +628,7 @@ var import_react5 = require("react"), import_jsx_dev_runtime7 = require("react/j
       setCountdown({ days, hours, minutes, seconds }), delta < 0 && (clearInterval(interval), setCountdown(countdownBase));
     }, 1e3);
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "text-3xl font-head font-bold text-center mb-10 pt-10 text-gray-700 px-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { className: "mb-1", children: "Faltan:" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "text-3xl font-head font-bold text-center text-gray-700 px-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { className: "mb-1", children: "Faltan:" }, void 0, !1, {
       fileName: "app/components/Countdown.tsx",
       lineNumber: 48,
       columnNumber: 9
@@ -733,7 +737,7 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
       lineNumber: 29,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "2:00 PM" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "1:00 PM" }, void 0, !1, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 32,
       columnNumber: 9
@@ -749,7 +753,7 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
       lineNumber: 38,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "4:00 PM" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "3:00 PM" }, void 0, !1, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 41,
       columnNumber: 9
@@ -760,12 +764,12 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
     columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl  font-black", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "BAILE" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-400 text-left md:text-center font-sans", children: "VALS" }, void 0, !1, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 47,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "8:00 PM" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "col-span-1 text-gray-700 text-right md:text-center font-sans", children: "7:00 PM" }, void 0, !1, {
       fileName: "app/components/Agendas.tsx",
       lineNumber: 50,
       columnNumber: 9
@@ -1535,7 +1539,7 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), photos = [
   return (0, import_react10.useEffect)(() => {
     isHydrating = !1, setIsHydrated(!0);
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-10 text-gray-700", children: "Momentos" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-6 text-gray-700", children: "Momentos" }, void 0, !1, {
       fileName: "app/components/GalleryPhotos.tsx",
       lineNumber: 83,
       columnNumber: 7
@@ -1557,8 +1561,8 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), photos = [
 }, GalleryPhotos_default = GalleryPhotos;
 
 // app/components/Prayer.tsx
-var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), Prayer = () => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "py-10 bg-gray-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text-center text-xl text-gray-800 mb-6 font-script", children: [
+var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), Prayer = () => /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "max-w-3xl mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mt-12 text-center font-medium font-head text-gray-600 italic mx-3", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "El amor es paciente y bondadoso." }, void 0, !1, {
       fileName: "app/components/Prayer.tsx",
       lineNumber: 8,
@@ -1748,7 +1752,7 @@ function Index() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Prayer_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Prayer_default, {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 111,
           columnNumber: 9
@@ -1766,7 +1770,7 @@ function Index() {
           lineNumber: 114,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-36 pt-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Countdown_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mt-12 mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Agendas_default, {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 119,
           columnNumber: 9
@@ -1775,7 +1779,7 @@ function Index() {
           lineNumber: 118,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Agendas_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Countdown_default, {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 123,
           columnNumber: 9
@@ -1784,7 +1788,7 @@ function Index() {
           lineNumber: 122,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(LocationMap_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(LocationMap_default, {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 127,
           columnNumber: 9
@@ -1793,7 +1797,7 @@ function Index() {
           lineNumber: 126,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(GalleryPhotos_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(SectionWrapper_default, { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(GalleryPhotos_default, {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 131,
           columnNumber: 9

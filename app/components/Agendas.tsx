@@ -30,7 +30,7 @@ const Agendas = () => {
           MISA
         </div>
         <div className="col-span-1 text-gray-700 text-right md:text-center font-sans">
-          2:00 PM
+          1:00 PM
         </div>
       </div>
 
@@ -39,16 +39,16 @@ const Agendas = () => {
           RECEPCION
         </div>
         <div className="col-span-1 text-gray-700 text-right md:text-center font-sans">
-          4:00 PM
+          3:00 PM
         </div>
       </div>
 
       <div className="grid grid-cols-2 gap-4 text-center text-2xl px-4 py-8 md:py-16 md:px-0 md:text-3xl  font-black">
         <div className="col-span-1 text-gray-400 text-left md:text-center font-sans">
-          BAILE
+          VALS
         </div>
         <div className="col-span-1 text-gray-700 text-right md:text-center font-sans">
-          8:00 PM
+          7:00 PM
         </div>
       </div>
     </div>

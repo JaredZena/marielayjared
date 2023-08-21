@@ -2,9 +2,9 @@ import React from 'react';
 
 const Prayer = () => {
   return (
-    <div className="py-10 bg-gray-100">
+    <div className="max-w-3xl mx-auto text-center">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="text-center text-xl text-gray-800 mb-6 font-script">
+        <div className="mt-12 text-center font-medium font-head text-gray-600 italic mx-3">
           <p>
             El amor es paciente y bondadoso.
           </p>

@@ -107,7 +107,7 @@ export default function Index() {
         </div>
       </div>
 
-      <SectionWrapper className="mb-36">
+      <SectionWrapper className="mb-12">
         <Prayer />
       </SectionWrapper>
 
@@ -115,19 +115,19 @@ export default function Index() {
         <BrideAndGroom />
       </SectionWrapper>
 
-      <SectionWrapper className="mb-36 pt-24">
-        <Countdown />
-      </SectionWrapper>
-
-      <SectionWrapper className="mb-36">
+      <SectionWrapper className="mt-12 mb-12">
         <Agendas />
       </SectionWrapper>
 
-      <div className="mb-24">
+      <SectionWrapper className="mb-12">
+        <Countdown />
+      </SectionWrapper>
+
+      <div className="mb-6">
         <LocationMap />
       </div>
 
-      <SectionWrapper className="mb-36">
+      <SectionWrapper className="mb-24">
         <GalleryPhotos />
       </SectionWrapper>
 
