@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import giftIcon from "../images/gift-icon.svg"
 import mexicoFlag from "../images/mexico-flag.png"
 import usFlag from "../images/us-flag.png"
 
@@ -17,18 +16,18 @@ const DigitalEnvelope = () => {
           </div>
 
       <div className=" flex space-around sm:justify-evenly flex-col md:flex-row md:flex-wrap">
+      <div className="px-4 mb-10">
+          <WishlistCard
+            wishlistUrl="https://www.amazon.com.mx/hz/wishlist/ls/2SVO2R7NGSYR2?ref_=wl_share"
+            flagImage={mexicoFlag}
+            name="Amazon Wishlist MX"
+          />
+        </div>
         <div className="px-4 mb-10">
           <WishlistCard
             wishlistUrl="https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=wl_share"
             flagImage={usFlag}
             name="Amazon Wishlist US"
-          />
-        </div>
-        <div className="px-4 mb-10">
-          <WishlistCard
-            wishlistUrl="https://www.amazon.com.mx/hz/wishlist/ls/2SVO2R7NGSYR2?ref_=wl_share"
-            flagImage={mexicoFlag}
-            name="Amazon Wishlist MX"
           />
         </div>
       </div>
@@ -49,15 +48,10 @@ const WishlistCard = ({ flagImage, name, wishlistUrl }: WishlistProps) => {
   };
 
   return (
-    <div className="gift-card flex space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer">
+    <div className="gift-card flex max-w-xs mx-auto space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-lg font-semibold text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer">
       <button className="gift-button w-full" onClick={handleClick}>
-      <img
-              src={giftIcon}
-              alt="Gift"
-              className="w-48 h-48 rounded-full mx-auto"
-            />
         <img className="flag-image mx-auto" src={flagImage} alt="Country Flag" />
-        <div className="name">{name}</div>
+        <div className="px-4 name">{name}</div>
       </button>
     </div>
   );

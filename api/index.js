@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "6e2822d2", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DANXAR7Q.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-6WKZUQ5V.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-6E2822D2.js" };
+    assets_manifest_default = { version: "c5bb0203", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Z36NZORM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-OVYLNBQN.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-C5BB0203.js" };
   }
 });
 
@@ -173,7 +173,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server()), import_react2 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-ZCFUYSH4.css";
+var tailwind_default = "/build/_assets/tailwind-H2QIZSGQ.css";
 
 // node_modules/react-photo-view/dist/react-photo-view.css
 var react_photo_view_default = "/build/_assets/react-photo-view-7Z2GU4I5.css";
@@ -501,7 +501,7 @@ var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), SectionWrapper =
 var mariela_img_default = "/build/_assets/mariela-img-EANRWFON.png";
 
 // app/images/jared-img.png
-var jared_img_default = "/build/_assets/jared-img-FAOFDYQG.png";
+var jared_img_default = "/build/_assets/jared-img-HZWCPL5F.png";
 
 // app/components/BrideAndGroom.tsx
 var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), BrideAndGroom = () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "pt-20 pb-4", children: [
@@ -786,7 +786,7 @@ dates=20231230T120000Z%2F20231230T020000Z`, Agendas = () => /* @__PURE__ */ (0, 
 }, this), Agendas_default = Agendas;
 
 // app/components/LocationMap.tsx
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), MAP_EMBEDED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31381.299981119057!2d-104.99637083302181!3d24.81549601386682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869a010e222dd2fd%3A0x10016ceafae5b0a4!2sLienzo%20Charro%20San%20Miguel!5e0!3m2!1sen!2smx!4v1690703171261!5m2!1sen!2smx", MAP_REDIRECT_URL = "https://www.google.com/maps/place/Lienzo+Charro+San+Miguel/@24.8159439,-105.0002616,17z/data=!3m1!4b1!4m6!3m5!1s0x869a010e222dd2fd:0x10016ceafae5b0a4!8m2!3d24.8159439!4d-104.9976867!16s%2Fg%2F11kqx7kcsn?entry=ttu", MAP_TITLE = "Lienzo Charro San Miguel", MAP_ADDRESS = "Domicilio Conocido Esfuerzos Unidos, Nuevo Ideal, Durango, Mexico", LocationMap = () => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "py-10 bg-[#EFEFEF]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(SectionWrapper_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col-reverse md:flex-row", children: [
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), MAP_EMBEDED_URL = "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3621.25239544662!2d-104.99585691228033!3d24.821040790005686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ5JzE1LjciTiAxMDTCsDU5JzI3LjYiVw!5e0!3m2!1ses-419!2smx!4v1693781704952!5m2!1ses-419!2smx", MAP_REDIRECT_URL = "https://www.google.com/maps/place/24%C2%B049'15.7%22N+104%C2%B059'27.6%22W/@24.8210408,-104.9958569,17z/data=!3m1!4b1!4m12!1m7!3m6!1s0x869bc815ae7efc65:0xe5fe52238a9547c0!2sParroqu%C3%ADa+de+San+Juan+Bautista!8m2!3d24.0184529!4d-104.672584!16s%2Fg%2F11btngssn7!3m3!8m2!3d24.821036!4d-104.990986?entry=ttu", MAP_TITLE = "Templo de San Juan Bautista", MAP_ADDRESS = "Domicilio Conocido Esfuerzos Unidos, Nuevo Ideal, Durango, Mexico", LocationMap = () => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "py-10 bg-[#EFEFEF]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(SectionWrapper_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col-reverse md:flex-row", children: [
   /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "w-full px-4 md:w-1/2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "p-2 bg-white rounded-lg shadow-lg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
     "iframe",
     {
@@ -1191,9 +1191,6 @@ var import_react6 = require("react"), import_google = require("@react-oauth/goog
 // app/routes/_index.tsx
 var import_google2 = require("@react-oauth/google");
 
-// app/images/gift-icon.svg
-var gift_icon_default = "/build/_assets/gift-icon-MPIUJZTH.svg";
-
 // app/images/mexico-flag.png
 var mexico_flag_default = "/build/_assets/mexico-flag-2TUNN7M6.png";
 
@@ -1204,39 +1201,19 @@ var us_flag_default = "/build/_assets/us-flag-FHMK2PIM.png";
 var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), DigitalEnvelope = () => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-6 pt-10 text-gray-700", children: "Mesa de Regalos" }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 9,
+    lineNumber: 8,
     columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "mb-6 text-center font-medium font-head text-gray-600 mx-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "Si deseas enviarnos un regalo, lo puedes hacer desde los siguientes links, te lo agradeceremos mucho." }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 14,
+    lineNumber: 13,
     columnNumber: 11
   }, this) }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 13,
+    lineNumber: 12,
     columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: " flex space-around sm:justify-evenly flex-col md:flex-row md:flex-wrap", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
-      WishlistCard,
-      {
-        wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=wl_share",
-        flagImage: us_flag_default,
-        name: "Amazon Wishlist US"
-      },
-      void 0,
-      !1,
-      {
-        fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 21,
-        columnNumber: 11
-      },
-      this
-    ) }, void 0, !1, {
-      fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 20,
-      columnNumber: 9
-    }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
       WishlistCard,
       {
@@ -1248,60 +1225,64 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), DigitalEnvelope
       !1,
       {
         fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 28,
+        lineNumber: 20,
         columnNumber: 11
       },
       this
     ) }, void 0, !1, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 27,
+      lineNumber: 19,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+      WishlistCard,
+      {
+        wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=wl_share",
+        flagImage: us_flag_default,
+        name: "Amazon Wishlist US"
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/DigitalEnvelope.tsx",
+        lineNumber: 27,
+        columnNumber: 11
+      },
+      this
+    ) }, void 0, !1, {
+      fileName: "app/components/DigitalEnvelope.tsx",
+      lineNumber: 26,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 19,
+    lineNumber: 18,
     columnNumber: 7
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/DigitalEnvelope.tsx",
-  lineNumber: 8,
+  lineNumber: 7,
   columnNumber: 5
-}, this), WishlistCard = ({ flagImage, name, wishlistUrl }) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "gift-card flex space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { className: "gift-button w-full", onClick: () => {
+}, this), WishlistCard = ({ flagImage, name, wishlistUrl }) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "gift-card flex max-w-xs mx-auto space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-lg font-semibold text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { className: "gift-button w-full", onClick: () => {
   window.open(wishlistUrl, "_blank");
 }, children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
-    "img",
-    {
-      src: gift_icon_default,
-      alt: "Gift",
-      className: "w-48 h-48 rounded-full mx-auto"
-    },
-    void 0,
-    !1,
-    {
-      fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 54,
-      columnNumber: 7
-    },
-    this
-  ),
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("img", { className: "flag-image mx-auto", src: flagImage, alt: "Country Flag" }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 59,
+    lineNumber: 53,
     columnNumber: 9
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "name", children: name }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "px-4 name", children: name }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 60,
+    lineNumber: 54,
     columnNumber: 9
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/DigitalEnvelope.tsx",
-  lineNumber: 53,
+  lineNumber: 52,
   columnNumber: 7
 }, this) }, void 0, !1, {
   fileName: "app/components/DigitalEnvelope.tsx",
-  lineNumber: 52,
+  lineNumber: 51,
   columnNumber: 5
 }, this), DigitalEnvelope_default = DigitalEnvelope;
 
@@ -1767,7 +1748,7 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), meta = () => [
     title: "Nuestra Boda - Mariela & Jared"
   },
   {
-    description: "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu"
+    description: "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel"
   },
   {
     "og:image": ogimage_default
@@ -1781,13 +1762,13 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), meta = () => [
   { "og:url": "https://www.marielayjared.com/" },
   { "og:title": "Nuestra Boda - Mariela & Jared" },
   {
-    "og:description": "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu"
+    "og:description": "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel"
   },
   { "og:type": "website" },
   { "twitter:image": ogimage_default },
   { "twitter:card": "summary_large_image" },
   {
-    "twitter:description": "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu"
+    "twitter:description": "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel"
   }
 ], loader = indexLoader, action = indexAction;
 function Index() {
@@ -1920,7 +1901,7 @@ function Index() {
           lineNumber: 130,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_google2.GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(SectionWrapper_default, { className: "mb-36 bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Message_default, { isMobile }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_google2.GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(SectionWrapper_default, { className: "mb-18 bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Message_default, { isMobile }, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 136,
           columnNumber: 11
@@ -1933,7 +1914,7 @@ function Index() {
           lineNumber: 134,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(DigitalEnvelope_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(SectionWrapper_default, { className: "mb-18", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(DigitalEnvelope_default, {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 141,
           columnNumber: 9

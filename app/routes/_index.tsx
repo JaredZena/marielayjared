@@ -27,7 +27,7 @@ export const meta: V2_MetaFunction = () => {
     },
     {
       description:
-        "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu",
+        "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel",
     },
     {
       "og:image": ogimage,
@@ -41,7 +41,7 @@ export const meta: V2_MetaFunction = () => {
     { "og:url": "https://www.marielayjared.com/" },
     { "og:title": "Nuestra Boda - Mariela & Jared" },
     {
-      "og:description": `SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu`,
+      "og:description": `SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel`,
     },
     { "og:type": "website" },
 
@@ -49,7 +49,7 @@ export const meta: V2_MetaFunction = () => {
     { "twitter:card": "summary_large_image" },
     {
       "twitter:description":
-        "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu",
+        "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel",
     },
   ];
 };
@@ -132,12 +132,12 @@ export default function Index() {
       </SectionWrapper>
 
       <GoogleOAuthProvider clientId={ENV.GOOGLE_CLIENT_ID!}>
-        <SectionWrapper className="mb-36 bg-background">
+        <SectionWrapper className="mb-18 bg-background">
           <Message isMobile={isMobile} />
         </SectionWrapper>
       </GoogleOAuthProvider>
 
-      <SectionWrapper className="mb-36">
+      <SectionWrapper className="mb-18">
         <DigitalEnvelope />
       </SectionWrapper>
 

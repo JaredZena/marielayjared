@@ -1754,7 +1754,7 @@ init_process();
 var mariela_img_default = "/build/_assets/mariela-img-EANRWFON.png";
 
 // app/images/jared-img.png
-var jared_img_default = "/build/_assets/jared-img-FAOFDYQG.png";
+var jared_img_default = "/build/_assets/jared-img-HZWCPL5F.png";
 
 // app/components/BrideAndGroom.tsx
 var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime());
@@ -2079,9 +2079,9 @@ init_filename();
 init_buffer();
 init_process();
 var import_jsx_dev_runtime7 = __toESM(require_jsx_dev_runtime());
-var MAP_EMBEDED_URL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31381.299981119057!2d-104.99637083302181!3d24.81549601386682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869a010e222dd2fd%3A0x10016ceafae5b0a4!2sLienzo%20Charro%20San%20Miguel!5e0!3m2!1sen!2smx!4v1690703171261!5m2!1sen!2smx";
-var MAP_REDIRECT_URL = "https://www.google.com/maps/place/Lienzo+Charro+San+Miguel/@24.8159439,-105.0002616,17z/data=!3m1!4b1!4m6!3m5!1s0x869a010e222dd2fd:0x10016ceafae5b0a4!8m2!3d24.8159439!4d-104.9976867!16s%2Fg%2F11kqx7kcsn?entry=ttu";
-var MAP_TITLE = "Lienzo Charro San Miguel";
+var MAP_EMBEDED_URL = "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3621.25239544662!2d-104.99585691228033!3d24.821040790005686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ5JzE1LjciTiAxMDTCsDU5JzI3LjYiVw!5e0!3m2!1ses-419!2smx!4v1693781704952!5m2!1ses-419!2smx";
+var MAP_REDIRECT_URL = "https://www.google.com/maps/place/24%C2%B049'15.7%22N+104%C2%B059'27.6%22W/@24.8210408,-104.9958569,17z/data=!3m1!4b1!4m12!1m7!3m6!1s0x869bc815ae7efc65:0xe5fe52238a9547c0!2sParroqu%C3%ADa+de+San+Juan+Bautista!8m2!3d24.0184529!4d-104.672584!16s%2Fg%2F11btngssn7!3m3!8m2!3d24.821036!4d-104.990986?entry=ttu";
+var MAP_TITLE = "Templo de San Juan Bautista";
 var MAP_ADDRESS = "Domicilio Conocido Esfuerzos Unidos, Nuevo Ideal, Durango, Mexico";
 var LocationMap = () => {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "py-10 bg-[#EFEFEF]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(SectionWrapper_default, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex flex-col-reverse md:flex-row", children: [
@@ -4991,9 +4991,6 @@ init_filename();
 init_buffer();
 init_process();
 
-// app/images/gift-icon.svg
-var gift_icon_default = "/build/_assets/gift-icon-MPIUJZTH.svg";
-
 // app/images/mexico-flag.png
 var mexico_flag_default = "/build/_assets/mexico-flag-2TUNN7M6.png";
 
@@ -5006,39 +5003,19 @@ var DigitalEnvelope = () => {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-6 pt-10 text-gray-700", children: "Mesa de Regalos" }, void 0, false, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mb-6 text-center font-medium font-head text-gray-600 mx-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Si deseas enviarnos un regalo, lo puedes hacer desde los siguientes links, te lo agradeceremos mucho." }, void 0, false, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 11
     }, this) }, void 0, false, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 13,
+      lineNumber: 12,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: " flex space-around sm:justify-evenly flex-col md:flex-row md:flex-wrap", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
-        WishlistCard,
-        {
-          wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=wl_share",
-          flagImage: us_flag_default,
-          name: "Amazon Wishlist US"
-        },
-        void 0,
-        false,
-        {
-          fileName: "app/components/DigitalEnvelope.tsx",
-          lineNumber: 21,
-          columnNumber: 11
-        },
-        this
-      ) }, void 0, false, {
-        fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 20,
-        columnNumber: 9
-      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
         WishlistCard,
         {
@@ -5050,23 +5027,43 @@ var DigitalEnvelope = () => {
         false,
         {
           fileName: "app/components/DigitalEnvelope.tsx",
-          lineNumber: 28,
+          lineNumber: 20,
           columnNumber: 11
         },
         this
       ) }, void 0, false, {
         fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 27,
+        lineNumber: 19,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+        WishlistCard,
+        {
+          wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=wl_share",
+          flagImage: us_flag_default,
+          name: "Amazon Wishlist US"
+        },
+        void 0,
+        false,
+        {
+          fileName: "app/components/DigitalEnvelope.tsx",
+          lineNumber: 27,
+          columnNumber: 11
+        },
+        this
+      ) }, void 0, false, {
+        fileName: "app/components/DigitalEnvelope.tsx",
+        lineNumber: 26,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 8,
+    lineNumber: 7,
     columnNumber: 5
   }, this);
 };
@@ -5074,40 +5071,24 @@ var WishlistCard = ({ flagImage, name, wishlistUrl }) => {
   const handleClick = () => {
     window.open(wishlistUrl, "_blank");
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "gift-card flex space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { className: "gift-button w-full", onClick: handleClick, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
-      "img",
-      {
-        src: gift_icon_default,
-        alt: "Gift",
-        className: "w-48 h-48 rounded-full mx-auto"
-      },
-      void 0,
-      false,
-      {
-        fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 54,
-        columnNumber: 7
-      },
-      this
-    ),
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "gift-card flex max-w-xs mx-auto space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-lg font-semibold text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { className: "gift-button w-full", onClick: handleClick, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { className: "flag-image mx-auto", src: flagImage, alt: "Country Flag" }, void 0, false, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 59,
+      lineNumber: 53,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "name", children: name }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "px-4 name", children: name }, void 0, false, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 60,
+      lineNumber: 54,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 53,
+    lineNumber: 52,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 52,
+    lineNumber: 51,
     columnNumber: 5
   }, this);
 };
@@ -6254,7 +6235,7 @@ var meta = () => {
       title: "Nuestra Boda - Mariela & Jared"
     },
     {
-      description: "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu"
+      description: "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel"
     },
     {
       "og:image": ogimage_default
@@ -6268,13 +6249,13 @@ var meta = () => {
     { "og:url": "https://www.marielayjared.com/" },
     { "og:title": "Nuestra Boda - Mariela & Jared" },
     {
-      "og:description": `SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu`
+      "og:description": `SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel`
     },
     { "og:type": "website" },
     { "twitter:image": ogimage_default },
     { "twitter:card": "summary_large_image" },
     {
-      "twitter:description": "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel, Bengkulu"
+      "twitter:description": "SABADO, DICIEMBRE 30 2023 di Lienzo Charro San Miguel"
     }
   ];
 };
@@ -6413,7 +6394,7 @@ function Index() {
           lineNumber: 130,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-36 bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Message_default, { isMobile }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-18 bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Message_default, { isMobile }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 136,
           columnNumber: 11
@@ -6426,7 +6407,7 @@ function Index() {
           lineNumber: 134,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(DigitalEnvelope_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-18", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(DigitalEnvelope_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 141,
           columnNumber: 9
@@ -6487,4 +6468,4 @@ react-responsive/dist/react-responsive.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=/build/routes/_index-6WKZUQ5V.js.map
+//# sourceMappingURL=/build/routes/_index-OVYLNBQN.js.map

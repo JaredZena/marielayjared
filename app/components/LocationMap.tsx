@@ -1,10 +1,10 @@
 import SectionWrapper from "./Utils/SectionWrapper";
 
 const MAP_EMBEDED_URL =
-"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31381.299981119057!2d-104.99637083302181!3d24.81549601386682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869a010e222dd2fd%3A0x10016ceafae5b0a4!2sLienzo%20Charro%20San%20Miguel!5e0!3m2!1sen!2smx!4v1690703171261!5m2!1sen!2smx";
+"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3621.25239544662!2d-104.99585691228033!3d24.821040790005686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ5JzE1LjciTiAxMDTCsDU5JzI3LjYiVw!5e0!3m2!1ses-419!2smx!4v1693781704952!5m2!1ses-419!2smx";
 const MAP_REDIRECT_URL =
-  "https://www.google.com/maps/place/Lienzo+Charro+San+Miguel/@24.8159439,-105.0002616,17z/data=!3m1!4b1!4m6!3m5!1s0x869a010e222dd2fd:0x10016ceafae5b0a4!8m2!3d24.8159439!4d-104.9976867!16s%2Fg%2F11kqx7kcsn?entry=ttu";
-const MAP_TITLE = "Lienzo Charro San Miguel";
+  "https://www.google.com/maps/place/24%C2%B049'15.7%22N+104%C2%B059'27.6%22W/@24.8210408,-104.9958569,17z/data=!3m1!4b1!4m12!1m7!3m6!1s0x869bc815ae7efc65:0xe5fe52238a9547c0!2sParroqu%C3%ADa+de+San+Juan+Bautista!8m2!3d24.0184529!4d-104.672584!16s%2Fg%2F11btngssn7!3m3!8m2!3d24.821036!4d-104.990986?entry=ttu";
+const MAP_TITLE = "Templo de San Juan Bautista";
 const MAP_ADDRESS =
   "Domicilio Conocido Esfuerzos Unidos, Nuevo Ideal, Durango, Mexico";
 
