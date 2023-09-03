@@ -1581,7 +1581,7 @@ init_dirname();
 init_filename();
 init_buffer();
 init_process();
-var import_react12 = __toESM(require_react());
+var import_react13 = __toESM(require_react());
 
 // app/components/WelcomeModal.tsx
 init_global();
@@ -4700,7 +4700,7 @@ var Message = ({ isMobile }) => {
     }
   });
   return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-10 md:mb-16 text-gray-700 px-4", children: "Envianos tus mejores deseos" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-10 md:mb-16 pt-10 text-gray-700 px-4", children: "Envianos tus mejores deseos" }, void 0, false, {
       fileName: "app/components/Message.tsx",
       lineNumber: 86,
       columnNumber: 7
@@ -4984,17 +4984,138 @@ var Message = ({ isMobile }) => {
 };
 var Message_default = (0, import_react5.memo)(Message);
 
-// app/components/MusicPlayer.tsx
+// app/components/DigitalEnvelope.tsx
 init_global();
 init_dirname();
 init_filename();
 init_buffer();
 init_process();
 var import_react7 = __toESM(require_react());
+
+// app/images/gift-icon.svg
+var gift_icon_default = "/build/_assets/gift-icon-MPIUJZTH.svg";
+
+// app/images/mexico-flag.png
+var mexico_flag_default = "/build/_assets/mexico-flag-2TUNN7M6.png";
+
+// app/images/us-flag.png
+var us_flag_default = "/build/_assets/us-flag-FHMK2PIM.png";
+
+// app/components/DigitalEnvelope.tsx
 var import_jsx_dev_runtime9 = __toESM(require_jsx_dev_runtime());
+var DigitalEnvelope = () => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-10 text-gray-700", children: "Mesa de Regalos" }, void 0, false, {
+      fileName: "app/components/DigitalEnvelope.tsx",
+      lineNumber: 9,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: " flex justify-evenly flex-col md:flex-row md:flex-wrap", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+        WishlistCard,
+        {
+          wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=list_d_wl_lfu_nav_1",
+          flagImage: us_flag_default,
+          name: "Amazon Wishlist US"
+        },
+        void 0,
+        false,
+        {
+          fileName: "app/components/DigitalEnvelope.tsx",
+          lineNumber: 15,
+          columnNumber: 11
+        },
+        this
+      ) }, void 0, false, {
+        fileName: "app/components/DigitalEnvelope.tsx",
+        lineNumber: 14,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+        WishlistCard,
+        {
+          wishlistUrl: "https://www.amazon.com.mx/hz/wishlist/ls/2SVO2R7NGSYR2?ref_=wl_share",
+          flagImage: mexico_flag_default,
+          name: "Amazon Wishlist MX"
+        },
+        void 0,
+        false,
+        {
+          fileName: "app/components/DigitalEnvelope.tsx",
+          lineNumber: 22,
+          columnNumber: 11
+        },
+        this
+      ) }, void 0, false, {
+        fileName: "app/components/DigitalEnvelope.tsx",
+        lineNumber: 21,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/DigitalEnvelope.tsx",
+      lineNumber: 13,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/DigitalEnvelope.tsx",
+    lineNumber: 8,
+    columnNumber: 5
+  }, this);
+};
+var WishlistCard = ({ flagImage, name, wishlistUrl }) => {
+  const handleClick = () => {
+    window.location.href = wishlistUrl;
+  };
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "gift-card border rounded-lg shadow-md hover:shadow-lg transition duration-300", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { className: "gift-button", onClick: handleClick, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+      "img",
+      {
+        src: gift_icon_default,
+        alt: "Gift",
+        className: "w-48 h-48 rounded-full mb-8"
+      },
+      void 0,
+      false,
+      {
+        fileName: "app/components/DigitalEnvelope.tsx",
+        lineNumber: 48,
+        columnNumber: 7
+      },
+      this
+    ),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { className: "flag-image mx-auto", src: flagImage, alt: "Country Flag" }, void 0, false, {
+      fileName: "app/components/DigitalEnvelope.tsx",
+      lineNumber: 53,
+      columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "name", children: name }, void 0, false, {
+      fileName: "app/components/DigitalEnvelope.tsx",
+      lineNumber: 54,
+      columnNumber: 9
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/DigitalEnvelope.tsx",
+    lineNumber: 47,
+    columnNumber: 7
+  }, this) }, void 0, false, {
+    fileName: "app/components/DigitalEnvelope.tsx",
+    lineNumber: 46,
+    columnNumber: 5
+  }, this);
+};
+var DigitalEnvelope_default = DigitalEnvelope;
+
+// app/components/MusicPlayer.tsx
+init_global();
+init_dirname();
+init_filename();
+init_buffer();
+init_process();
+var import_react8 = __toESM(require_react());
+var import_jsx_dev_runtime10 = __toESM(require_jsx_dev_runtime());
 var MusicPlayer = ({ play: playParent }) => {
-  const [play, setPlay] = (0, import_react7.useState)(false);
-  const audio = (0, import_react7.useRef)(null);
+  const [play, setPlay] = (0, import_react8.useState)(false);
+  const audio = (0, import_react8.useRef)(null);
   const onPlay = async () => {
     if (!audio.current)
       return;
@@ -5007,15 +5128,15 @@ var MusicPlayer = ({ play: playParent }) => {
     audio.current.pause();
     setPlay(false);
   };
-  (0, import_react7.useEffect)(() => {
+  (0, import_react8.useEffect)(() => {
     if (playParent)
       onPlay();
     else
       onPause();
   }, [playParent]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react7.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("audio", { controls: true, ref: audio, loop: true, hidden: true, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("source", { src: "/wedding.mp3", type: "audio/mp3" }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(import_react8.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("audio", { controls: true, ref: audio, loop: true, hidden: true, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("source", { src: "/wedding.mp3", type: "audio/mp3" }, void 0, false, {
         fileName: "app/components/MusicPlayer.tsx",
         lineNumber: 31,
         columnNumber: 9
@@ -5026,7 +5147,7 @@ var MusicPlayer = ({ play: playParent }) => {
       lineNumber: 30,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: " fixed bottom-0 right-0 mr-3 mb-3 md:mr-8 md:mb-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: " fixed bottom-0 right-0 mr-3 mb-3 md:mr-8 md:mb-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
       "button",
       {
         className: "rounded-full drop-shadow-md bg-[#B7410E] text-4xl w-9 h-9  md:w-11 md:h-11 flex items-center justify-center",
@@ -5034,7 +5155,7 @@ var MusicPlayer = ({ play: playParent }) => {
           play ? onPause() : onPlay();
         },
         "aria-label": "audio-control",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("i", { className: play ? "bx bx-pause" : "bx bx-play pl-1" }, void 0, false, {
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("i", { className: play ? "bx bx-pause" : "bx bx-play pl-1" }, void 0, false, {
           fileName: "app/components/MusicPlayer.tsx",
           lineNumber: 43,
           columnNumber: 11
@@ -5070,7 +5191,7 @@ init_dirname();
 init_filename();
 init_buffer();
 init_process();
-var import_react10 = __toESM(require_react());
+var import_react11 = __toESM(require_react());
 
 // app/images/foto1.jpg
 var foto1_default = "/build/_assets/foto1-QA6R77NZ.jpg";
@@ -5112,7 +5233,7 @@ init_dirname();
 init_filename();
 init_buffer();
 init_process();
-var import_react9 = __toESM(require_react());
+var import_react10 = __toESM(require_react());
 
 // app/components/Gallery/Utils/compute-layout.ts
 init_global();
@@ -5341,7 +5462,7 @@ init_dirname();
 init_filename();
 init_buffer();
 init_process();
-var import_react8 = __toESM(require_react());
+var import_react9 = __toESM(require_react());
 var import_react_dom = __toESM(require_react_dom());
 function f() {
   return f = Object.assign || function(e2) {
@@ -5362,7 +5483,7 @@ function h(e2, n2) {
   return i2;
 }
 function m(e2) {
-  var t2 = (0, import_react8.useRef)({ fn: e2, curr: void 0 }).current;
+  var t2 = (0, import_react9.useRef)({ fn: e2, curr: void 0 }).current;
   if (t2.fn = e2, !t2.curr) {
     var r2 = /* @__PURE__ */ Object.create(null);
     Object.keys(e2).forEach(function(e3) {
@@ -5375,11 +5496,11 @@ function m(e2) {
   return t2.curr;
 }
 function g(e2) {
-  return (0, import_react8.useReducer)(function(e3, n2) {
+  return (0, import_react9.useReducer)(function(e3, n2) {
     return f({}, e3, "function" == typeof n2 ? n2(e3) : n2);
   }, e2);
 }
-var p = (0, import_react8.createContext)(void 0);
+var p = (0, import_react9.createContext)(void 0);
 var w = "undefined" != typeof window && "ontouchstart" in window;
 var y = function(e2, n2, t2) {
   return Math.max(Math.min(e2, t2), n2);
@@ -5387,10 +5508,10 @@ var y = function(e2, n2, t2) {
 var x = function(e2, n2, t2) {
   return void 0 === n2 && (n2 = 0), void 0 === t2 && (t2 = 0), y(e2, 1 * (1 - t2), Math.max(6, n2) * (1 + t2));
 };
-var C = "undefined" == typeof window || /ServerSideRendering/.test(navigator && navigator.userAgent) ? import_react8.useEffect : import_react8.useLayoutEffect;
+var C = "undefined" == typeof window || /ServerSideRendering/.test(navigator && navigator.userAgent) ? import_react9.useEffect : import_react9.useLayoutEffect;
 function b(e2, t2, r2) {
-  var o2 = (0, import_react8.useRef)(t2);
-  o2.current = t2, (0, import_react8.useEffect)(function() {
+  var o2 = (0, import_react9.useRef)(t2);
+  o2.current = t2, (0, import_react9.useEffect)(function() {
     function n2(e3) {
       o2.current(e3);
     }
@@ -5402,19 +5523,19 @@ function b(e2, t2, r2) {
 var E = ["container"];
 function k(n2) {
   var t2 = n2.container, r2 = void 0 === t2 ? document.body : t2, i2 = h(n2, E);
-  return (0, import_react_dom.createPortal)(import_react8.default.createElement("div", f({}, i2)), r2);
+  return (0, import_react_dom.createPortal)(import_react9.default.createElement("div", f({}, i2)), r2);
 }
 function P(n2) {
-  return import_react8.default.createElement("svg", f({ width: "44", height: "44", viewBox: "0 0 768 768" }, n2), import_react8.default.createElement("path", { d: "M607.5 205.5l-178.5 178.5 178.5 178.5-45 45-178.5-178.5-178.5 178.5-45-45 178.5-178.5-178.5-178.5 45-45 178.5 178.5 178.5-178.5z" }));
+  return import_react9.default.createElement("svg", f({ width: "44", height: "44", viewBox: "0 0 768 768" }, n2), import_react9.default.createElement("path", { d: "M607.5 205.5l-178.5 178.5 178.5 178.5-45 45-178.5-178.5-178.5 178.5-45-45 178.5-178.5-178.5-178.5 45-45 178.5 178.5 178.5-178.5z" }));
 }
 function _(n2) {
-  return import_react8.default.createElement("svg", f({ width: "44", height: "44", viewBox: "0 0 768 768" }, n2), import_react8.default.createElement("path", { d: "M640.5 352.5v63h-390l178.5 180-45 45-256.5-256.5 256.5-256.5 45 45-178.5 180h390z" }));
+  return import_react9.default.createElement("svg", f({ width: "44", height: "44", viewBox: "0 0 768 768" }, n2), import_react9.default.createElement("path", { d: "M640.5 352.5v63h-390l178.5 180-45 45-256.5-256.5 256.5-256.5 45 45-178.5 180h390z" }));
 }
 function M(n2) {
-  return import_react8.default.createElement("svg", f({ width: "44", height: "44", viewBox: "0 0 768 768" }, n2), import_react8.default.createElement("path", { d: "M384 127.5l256.5 256.5-256.5 256.5-45-45 178.5-180h-390v-63h390l-178.5-180z" }));
+  return import_react9.default.createElement("svg", f({ width: "44", height: "44", viewBox: "0 0 768 768" }, n2), import_react9.default.createElement("path", { d: "M384 127.5l256.5 256.5-256.5 256.5-45-45 178.5-180h-390v-63h390l-178.5-180z" }));
 }
 function Y() {
-  return (0, import_react8.useEffect)(function() {
+  return (0, import_react9.useEffect)(function() {
     var e2 = document.body.style, n2 = e2.overflow;
     return e2.overflow = "hidden", function() {
       e2.overflow = n2;
@@ -5447,11 +5568,11 @@ function T(e2, n2, t2) {
   return e2 < i2 && n2 < o2 ? (c2 = e2, u2 = n2) : e2 < i2 && n2 >= o2 ? c2 = l2 : e2 >= i2 && n2 < o2 || e2 / n2 > i2 / o2 ? u2 = s2 : n2 / e2 >= 3 && !r2[2] ? a2 = ((u2 = s2) - o2) / 2 : c2 = l2, { width: c2, height: u2, x: 0, y: a2, pause: true };
 }
 function V(e2, t2) {
-  var r2 = t2.leading, i2 = void 0 !== r2 && r2, o2 = t2.maxWait, a2 = t2.wait, u2 = void 0 === a2 ? o2 || 0 : a2, l2 = (0, import_react8.useRef)(e2);
+  var r2 = t2.leading, i2 = void 0 !== r2 && r2, o2 = t2.maxWait, a2 = t2.wait, u2 = void 0 === a2 ? o2 || 0 : a2, l2 = (0, import_react9.useRef)(e2);
   l2.current = e2;
-  var s2 = (0, import_react8.useRef)(0), d2 = (0, import_react8.useRef)(), v2 = function() {
+  var s2 = (0, import_react9.useRef)(0), d2 = (0, import_react9.useRef)(), v2 = function() {
     return d2.current && clearTimeout(d2.current);
-  }, f2 = (0, import_react8.useCallback)(function() {
+  }, f2 = (0, import_react9.useCallback)(function() {
     var e3 = [].slice.call(arguments), n2 = Date.now();
     function t3() {
       s2.current = n2, v2(), l2.current.apply(null, e3);
@@ -5494,8 +5615,8 @@ function I(e2, n2, t2, r2, i2, o2) {
 }
 var H = { T: 0, L: 0, W: 0, H: 0, FIT: void 0 };
 var L = function() {
-  var e2 = (0, import_react8.useRef)(false);
-  return (0, import_react8.useEffect)(function() {
+  var e2 = (0, import_react9.useRef)(false);
+  return (0, import_react9.useEffect)(function() {
     return e2.current = true, function() {
       e2.current = false;
     };
@@ -5504,21 +5625,21 @@ var L = function() {
 var F = ["className"];
 function D(n2) {
   var t2 = n2.className, r2 = h(n2, F);
-  return import_react8.default.createElement("div", f({ className: "PhotoView__Spinner " + t2 }, r2), import_react8.default.createElement("svg", { viewBox: "0 0 32 32", width: "36", height: "36", fill: "white" }, import_react8.default.createElement("path", { opacity: ".25", d: "M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4" }), import_react8.default.createElement("path", { d: "M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z" })));
+  return import_react9.default.createElement("div", f({ className: "PhotoView__Spinner " + t2 }, r2), import_react9.default.createElement("svg", { viewBox: "0 0 32 32", width: "36", height: "36", fill: "white" }, import_react9.default.createElement("path", { opacity: ".25", d: "M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4" }), import_react9.default.createElement("path", { d: "M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z" })));
 }
 var O = ["src", "loaded", "broken", "className", "onPhotoLoad", "loadingElement", "brokenElement"];
 function B(n2) {
   var t2 = n2.src, r2 = n2.loaded, i2 = n2.broken, o2 = n2.className, a2 = n2.onPhotoLoad, c2 = n2.loadingElement, u2 = n2.brokenElement, l2 = h(n2, O), s2 = L();
-  return t2 && !i2 ? import_react8.default.createElement(import_react8.default.Fragment, null, import_react8.default.createElement("img", f({ className: "PhotoView__Photo" + (o2 ? " " + o2 : ""), src: t2, onLoad: function(e2) {
+  return t2 && !i2 ? import_react9.default.createElement(import_react9.default.Fragment, null, import_react9.default.createElement("img", f({ className: "PhotoView__Photo" + (o2 ? " " + o2 : ""), src: t2, onLoad: function(e2) {
     var n3 = e2.target;
     s2.current && a2({ loaded: true, naturalWidth: n3.naturalWidth, naturalHeight: n3.naturalHeight });
   }, onError: function() {
     s2.current && a2({ broken: true });
-  }, alt: "" }, l2)), !r2 && (import_react8.default.createElement("span", { className: "PhotoView__icon" }, c2) || import_react8.default.createElement(D, { className: "PhotoView__icon" }))) : u2 ? import_react8.default.createElement("span", { className: "PhotoView__icon" }, "function" == typeof u2 ? u2({ src: t2 }) : u2) : null;
+  }, alt: "" }, l2)), !r2 && (import_react9.default.createElement("span", { className: "PhotoView__icon" }, c2) || import_react9.default.createElement(D, { className: "PhotoView__icon" }))) : u2 ? import_react9.default.createElement("span", { className: "PhotoView__icon" }, "function" == typeof u2 ? u2({ src: t2 }) : u2) : null;
 }
 var z = { naturalWidth: void 0, naturalHeight: void 0, width: void 0, height: void 0, loaded: void 0, broken: false, x: 0, y: 0, touched: false, maskTouched: false, rotate: 0, scale: 1, CX: 0, CY: 0, lastX: 0, lastY: 0, lastCX: 0, lastCY: 0, lastScale: 1, touchTime: 0, touchLength: 0, pause: true, stopRaf: true, reach: void 0 };
 function j(t2) {
-  var r2 = t2.item, o2 = r2.src, a2 = r2.render, c2 = r2.width, l2 = void 0 === c2 ? 0 : c2, s2 = r2.height, d2 = void 0 === s2 ? 0 : s2, v2 = r2.originRef, h2 = t2.visible, p2 = t2.speed, y2 = t2.easing, E2 = t2.wrapClassName, k2 = t2.className, P2 = t2.style, _2 = t2.loadingElement, M2 = t2.brokenElement, Y2 = t2.onPhotoTap, A2 = t2.onMaskTap, F2 = t2.onReachMove, D2 = t2.onReachUp, O2 = t2.onPhotoResize, j2 = t2.isActive, q2 = t2.expose, K2 = g(z), U2 = K2[0], G2 = K2[1], J2 = (0, import_react8.useRef)(0), Q2 = L(), Z = U2.naturalWidth, $ = void 0 === Z ? l2 : Z, ee = U2.naturalHeight, ne = void 0 === ee ? d2 : ee, te = U2.width, re = void 0 === te ? l2 : te, ie = U2.height, oe = void 0 === ie ? d2 : ie, ae = U2.loaded, ce = void 0 === ae ? !o2 : ae, ue = U2.broken, le = U2.x, se = U2.y, de = U2.touched, ve = U2.stopRaf, fe = U2.maskTouched, he = U2.rotate, me = U2.scale, ge = U2.CX, pe = U2.CY, we = U2.lastX, ye = U2.lastY, xe = U2.lastCX, Ce = U2.lastCY, be = U2.lastScale, Ee = U2.touchTime, ke = U2.touchLength, Pe = U2.pause, _e = U2.reach, Me = m({ onScale: function(e2) {
+  var r2 = t2.item, o2 = r2.src, a2 = r2.render, c2 = r2.width, l2 = void 0 === c2 ? 0 : c2, s2 = r2.height, d2 = void 0 === s2 ? 0 : s2, v2 = r2.originRef, h2 = t2.visible, p2 = t2.speed, y2 = t2.easing, E2 = t2.wrapClassName, k2 = t2.className, P2 = t2.style, _2 = t2.loadingElement, M2 = t2.brokenElement, Y2 = t2.onPhotoTap, A2 = t2.onMaskTap, F2 = t2.onReachMove, D2 = t2.onReachUp, O2 = t2.onPhotoResize, j2 = t2.isActive, q2 = t2.expose, K2 = g(z), U2 = K2[0], G2 = K2[1], J2 = (0, import_react9.useRef)(0), Q2 = L(), Z = U2.naturalWidth, $ = void 0 === Z ? l2 : Z, ee = U2.naturalHeight, ne = void 0 === ee ? d2 : ee, te = U2.width, re = void 0 === te ? l2 : te, ie = U2.height, oe = void 0 === ie ? d2 : ie, ae = U2.loaded, ce = void 0 === ae ? !o2 : ae, ue = U2.broken, le = U2.x, se = U2.y, de = U2.touched, ve = U2.stopRaf, fe = U2.maskTouched, he = U2.rotate, me = U2.scale, ge = U2.CX, pe = U2.CY, we = U2.lastX, ye = U2.lastY, xe = U2.lastCX, Ce = U2.lastCY, be = U2.lastScale, Ee = U2.touchTime, ke = U2.touchLength, Pe = U2.pause, _e = U2.reach, Me = m({ onScale: function(e2) {
     return Ye(x(e2));
   }, onRotate: function(e2) {
     he !== e2 && (q2({ rotate: e2 }), G2(f({ rotate: e2 }, T($, ne, e2))));
@@ -5592,7 +5713,7 @@ function j(t2) {
     });
   }), Fe = (We = Y2, Se = function(e2, n2) {
     _e || Ye(1 !== me ? 1 : Math.max(2, $ / re), e2, n2);
-  }, Te = (0, import_react8.useRef)(0), Ve = V(function() {
+  }, Te = (0, import_react9.useRef)(0), Ve = V(function() {
     Te.current = 0, We.apply(void 0, [].slice.call(arguments));
   }, { wait: 300 }), function() {
     var e2 = [].slice.call(arguments);
@@ -5633,7 +5754,7 @@ function j(t2) {
   }, [j2]);
   var ze = function(e2, t3, r3, o3, a3, c3, l3, s3, d3, v3) {
     var f2 = function(e3, t4, r4, i2, o4) {
-      var a4 = (0, import_react8.useRef)(false), c4 = g({ lead: true, scale: r4 }), u2 = c4[0], l4 = u2.lead, s4 = u2.scale, d4 = c4[1], v4 = V(function(e4) {
+      var a4 = (0, import_react9.useRef)(false), c4 = g({ lead: true, scale: r4 }), u2 = c4[0], l4 = u2.lead, s4 = u2.scale, d4 = c4[1], v4 = V(function(e4) {
         try {
           return o4(true), d4({ lead: false, scale: e4 }), Promise.resolve();
         } catch (e5) {
@@ -5644,13 +5765,13 @@ function j(t2) {
         a4.current ? (o4(false), d4({ lead: true }), v4(r4)) : a4.current = true;
       }, [r4]), l4 ? [e3 * s4, t4 * s4, r4 / s4] : [e3 * r4, t4 * r4, 1];
     }(c3, l3, s3, d3, v3), h3 = f2[0], p3 = f2[1], w2 = f2[2], y3 = function(e3, t4, r4, o4, a4) {
-      var c4 = (0, import_react8.useState)(H), l4 = c4[0], s4 = c4[1], d4 = (0, import_react8.useState)(0), v4 = d4[0], f3 = d4[1], h4 = (0, import_react8.useRef)(), g2 = m({ OK: function() {
+      var c4 = (0, import_react9.useState)(H), l4 = c4[0], s4 = c4[1], d4 = (0, import_react9.useState)(0), v4 = d4[0], f3 = d4[1], h4 = (0, import_react9.useRef)(), g2 = m({ OK: function() {
         return e3 && f3(4);
       } });
       function p4(e4) {
         a4(false), f3(e4);
       }
-      return (0, import_react8.useEffect)(function() {
+      return (0, import_react9.useEffect)(function() {
         if (h4.current || (h4.current = Date.now()), r4) {
           if (function(e4, n2) {
             var t5 = e4 && e4.current;
@@ -5681,23 +5802,23 @@ function j(t2) {
       G2({ stopRaf: true }), Ye(n2, e2.clientX, e2.clientY);
     }
   }, style: { width: ze[2], height: ze[3], opacity: ze[5], objectFit: 4 === qe ? void 0 : ze[7], transform: he ? "rotate(" + he + "deg)" : void 0, transition: qe > 2 ? Ke + ", opacity " + p2 + "ms ease, height " + (qe < 4 ? p2 / 2 : qe > 4 ? p2 : 0) + "ms " + y2 : void 0 } };
-  return import_react8.default.createElement("div", { className: "PhotoView__PhotoWrap" + (E2 ? " " + E2 : ""), style: P2, onMouseDown: !w && j2 ? Be : void 0, onTouchStart: w && j2 ? function(e2) {
+  return import_react9.default.createElement("div", { className: "PhotoView__PhotoWrap" + (E2 ? " " + E2 : ""), style: P2, onMouseDown: !w && j2 ? Be : void 0, onTouchStart: w && j2 ? function(e2) {
     return Be(e2.touches[0]);
-  } : void 0 }, import_react8.default.createElement("div", { className: "PhotoView__PhotoBox", style: { transform: "matrix(" + je + ", 0, 0, " + je + ", " + ze[0] + ", " + ze[1] + ")", transition: de || Pe ? void 0 : Ke, willChange: j2 ? "transform" : void 0 } }, o2 ? import_react8.default.createElement(B, f({ src: o2, loaded: ce, broken: ue }, Ue, { onPhotoLoad: function(e2) {
+  } : void 0 }, import_react9.default.createElement("div", { className: "PhotoView__PhotoBox", style: { transform: "matrix(" + je + ", 0, 0, " + je + ", " + ze[0] + ", " + ze[1] + ")", transition: de || Pe ? void 0 : Ke, willChange: j2 ? "transform" : void 0 } }, o2 ? import_react9.default.createElement(B, f({ src: o2, loaded: ce, broken: ue }, Ue, { onPhotoLoad: function(e2) {
     G2(f({}, e2, e2.loaded && T(e2.naturalWidth || 0, e2.naturalHeight || 0, he)));
   }, loadingElement: _2, brokenElement: M2 })) : a2 && a2({ attrs: Ue, scale: je, rotate: he })));
 }
 var q = { x: 0, touched: false, pause: false, lastCX: void 0, lastCY: void 0, bg: void 0, lastBg: void 0, overlay: true, minimal: true, scale: 1, rotate: 0 };
 function K(r2) {
-  var i2 = r2.loop, o2 = void 0 === i2 ? 3 : i2, c2 = r2.speed, l2 = r2.easing, s2 = r2.photoClosable, d2 = r2.maskClosable, v2 = void 0 === d2 || d2, f2 = r2.maskOpacity, h2 = void 0 === f2 ? 1 : f2, p2 = r2.pullClosable, x2 = void 0 === p2 || p2, E2 = r2.bannerVisible, X2 = void 0 === E2 || E2, N2 = r2.overlayRender, W2 = r2.toolbarRender, S2 = r2.className, T2 = r2.maskClassName, V2 = r2.photoClassName, R2 = r2.photoWrapClassName, A2 = r2.loadingElement, I2 = r2.brokenElement, H2 = r2.images, L2 = r2.index, F2 = void 0 === L2 ? 0 : L2, D2 = r2.onIndexChange, O2 = r2.visible, B2 = r2.onClose, z2 = r2.afterClose, K2 = r2.portalContainer, U2 = g(q), G2 = U2[0], J2 = U2[1], Q2 = (0, import_react8.useState)(0), Z = Q2[0], $ = Q2[1], ee = G2.x, ne = G2.touched, te = G2.pause, re = G2.lastCX, ie = G2.lastCY, oe = G2.bg, ae = void 0 === oe ? h2 : oe, ce = G2.lastBg, ue = G2.overlay, le = G2.minimal, se = G2.scale, de = G2.rotate, ve = G2.onScale, fe = G2.onRotate, he = r2.hasOwnProperty("index"), me = he ? F2 : Z, ge = he ? D2 : $, pe = (0, import_react8.useRef)(me), we = H2.length, ye = H2[me], xe = "boolean" == typeof o2 ? o2 : we > o2, Ce = function(e2, r3) {
-    var i3 = (0, import_react8.useReducer)(function(e3) {
+  var i2 = r2.loop, o2 = void 0 === i2 ? 3 : i2, c2 = r2.speed, l2 = r2.easing, s2 = r2.photoClosable, d2 = r2.maskClosable, v2 = void 0 === d2 || d2, f2 = r2.maskOpacity, h2 = void 0 === f2 ? 1 : f2, p2 = r2.pullClosable, x2 = void 0 === p2 || p2, E2 = r2.bannerVisible, X2 = void 0 === E2 || E2, N2 = r2.overlayRender, W2 = r2.toolbarRender, S2 = r2.className, T2 = r2.maskClassName, V2 = r2.photoClassName, R2 = r2.photoWrapClassName, A2 = r2.loadingElement, I2 = r2.brokenElement, H2 = r2.images, L2 = r2.index, F2 = void 0 === L2 ? 0 : L2, D2 = r2.onIndexChange, O2 = r2.visible, B2 = r2.onClose, z2 = r2.afterClose, K2 = r2.portalContainer, U2 = g(q), G2 = U2[0], J2 = U2[1], Q2 = (0, import_react9.useState)(0), Z = Q2[0], $ = Q2[1], ee = G2.x, ne = G2.touched, te = G2.pause, re = G2.lastCX, ie = G2.lastCY, oe = G2.bg, ae = void 0 === oe ? h2 : oe, ce = G2.lastBg, ue = G2.overlay, le = G2.minimal, se = G2.scale, de = G2.rotate, ve = G2.onScale, fe = G2.onRotate, he = r2.hasOwnProperty("index"), me = he ? F2 : Z, ge = he ? D2 : $, pe = (0, import_react9.useRef)(me), we = H2.length, ye = H2[me], xe = "boolean" == typeof o2 ? o2 : we > o2, Ce = function(e2, r3) {
+    var i3 = (0, import_react9.useReducer)(function(e3) {
       return !e3;
-    }, false)[1], o3 = (0, import_react8.useRef)(0), c3 = function(t2, r4) {
-      var i4 = (0, import_react8.useRef)(t2);
+    }, false)[1], o3 = (0, import_react9.useRef)(0), c3 = function(t2, r4) {
+      var i4 = (0, import_react9.useRef)(t2);
       function c4(e3) {
         i4.current = e3;
       }
-      return (0, import_react8.useMemo)(function() {
+      return (0, import_react9.useMemo)(function() {
         !function(n2) {
           e2 ? (n2(e2), o3.current = 1) : o3.current = 2;
         }(c4);
@@ -5765,7 +5886,7 @@ function K(r2) {
       }
   });
   var Se = function(e2, n2, t2) {
-    return (0, import_react8.useMemo)(function() {
+    return (0, import_react9.useMemo)(function() {
       var r3 = e2.length;
       return t2 ? e2.concat(e2).concat(e2).slice(r3 + n2 - 1, r3 + n2 + 2) : e2.slice(Math.max(n2 - 1, 0), Math.min(n2 + 2, r3 + 1));
     }, [e2, n2, t2]);
@@ -5773,25 +5894,25 @@ function K(r2) {
   if (!be)
     return null;
   var Te = ue && !Ee, Ve = O2 ? ae : ce, Re = ve && fe && { images: H2, index: me, visible: O2, onClose: _e, onIndexChange: Me, overlayVisible: Te, overlay: ye && ye.overlay, scale: se, rotate: de, onScale: ve, onRotate: fe }, Ae = c2 ? c2(Ee) : 400, Ie = l2 ? l2(Ee) : "cubic-bezier(0.25, 0.8, 0.25, 1)", He = c2 ? c2(3) : 600, Le = l2 ? l2(3) : "cubic-bezier(0.25, 0.8, 0.25, 1)";
-  return import_react8.default.createElement(k, { className: "PhotoView-Portal" + (Te ? "" : " PhotoView-Slider__clean") + (O2 ? "" : " PhotoView-Slider__willClose") + (S2 ? " " + S2 : ""), role: "dialog", onClick: function(e2) {
+  return import_react9.default.createElement(k, { className: "PhotoView-Portal" + (Te ? "" : " PhotoView-Slider__clean") + (O2 ? "" : " PhotoView-Slider__willClose") + (S2 ? " " + S2 : ""), role: "dialog", onClick: function(e2) {
     return e2.stopPropagation();
-  }, container: K2 }, O2 && import_react8.default.createElement(Y, null), import_react8.default.createElement("div", { className: "PhotoView-Slider__Backdrop" + (T2 ? " " + T2 : "") + (1 === Ee ? " PhotoView-Slider__fadeIn" : 2 === Ee ? " PhotoView-Slider__fadeOut" : ""), style: { background: Ve ? "rgba(0, 0, 0, " + Ve + ")" : void 0, transitionTimingFunction: Ie, transitionDuration: (ne ? 0 : Ae) + "ms", animationDuration: Ae + "ms" }, onAnimationEnd: ke }), X2 && import_react8.default.createElement("div", { className: "PhotoView-Slider__BannerWrap" }, import_react8.default.createElement("div", { className: "PhotoView-Slider__Counter" }, me + 1, " / ", we), import_react8.default.createElement("div", { className: "PhotoView-Slider__BannerRight" }, W2 && Re && W2(Re), import_react8.default.createElement(P, { className: "PhotoView-Slider__toolbarIcon", onClick: _e }))), Se.map(function(n2, t2) {
+  }, container: K2 }, O2 && import_react9.default.createElement(Y, null), import_react9.default.createElement("div", { className: "PhotoView-Slider__Backdrop" + (T2 ? " " + T2 : "") + (1 === Ee ? " PhotoView-Slider__fadeIn" : 2 === Ee ? " PhotoView-Slider__fadeOut" : ""), style: { background: Ve ? "rgba(0, 0, 0, " + Ve + ")" : void 0, transitionTimingFunction: Ie, transitionDuration: (ne ? 0 : Ae) + "ms", animationDuration: Ae + "ms" }, onAnimationEnd: ke }), X2 && import_react9.default.createElement("div", { className: "PhotoView-Slider__BannerWrap" }, import_react9.default.createElement("div", { className: "PhotoView-Slider__Counter" }, me + 1, " / ", we), import_react9.default.createElement("div", { className: "PhotoView-Slider__BannerRight" }, W2 && Re && W2(Re), import_react9.default.createElement(P, { className: "PhotoView-Slider__toolbarIcon", onClick: _e }))), Se.map(function(n2, t2) {
     var r3 = xe || 0 !== me ? pe.current - 1 + t2 : me + t2;
-    return import_react8.default.createElement(j, { key: xe ? n2.key + "/" + n2.src + "/" + r3 : n2.key, item: n2, speed: Ae, easing: Ie, visible: O2, onReachMove: Ne, onReachUp: We, onPhotoTap: function() {
+    return import_react9.default.createElement(j, { key: xe ? n2.key + "/" + n2.src + "/" + r3 : n2.key, item: n2, speed: Ae, easing: Ie, visible: O2, onReachMove: Ne, onReachUp: We, onPhotoTap: function() {
       return Ye(s2);
     }, onMaskTap: function() {
       return Ye(v2);
     }, wrapClassName: R2, className: V2, style: { left: (innerWidth + 20) * r3 + "px", transform: "translate3d(" + ee + "px, 0px, 0)", transition: ne || te ? void 0 : "transform " + He + "ms " + Le }, loadingElement: A2, brokenElement: I2, onPhotoResize: Xe, isActive: (ye && ye.key) === n2.key, expose: J2 });
-  }), !w && X2 && import_react8.default.createElement(import_react8.default.Fragment, null, (xe || 0 !== me) && import_react8.default.createElement("div", { className: "PhotoView-Slider__ArrowLeft", onClick: function() {
+  }), !w && X2 && import_react9.default.createElement(import_react9.default.Fragment, null, (xe || 0 !== me) && import_react9.default.createElement("div", { className: "PhotoView-Slider__ArrowLeft", onClick: function() {
     return Me(me - 1, true);
-  } }, import_react8.default.createElement(_, null)), (xe || me + 1 < we) && import_react8.default.createElement("div", { className: "PhotoView-Slider__ArrowRight", onClick: function() {
+  } }, import_react9.default.createElement(_, null)), (xe || me + 1 < we) && import_react9.default.createElement("div", { className: "PhotoView-Slider__ArrowRight", onClick: function() {
     return Me(me + 1, true);
-  } }, import_react8.default.createElement(M, null))), N2 && Re && import_react8.default.createElement("div", { className: "PhotoView-Slider__Overlay" }, N2(Re)));
+  } }, import_react9.default.createElement(M, null))), N2 && Re && import_react9.default.createElement("div", { className: "PhotoView-Slider__Overlay" }, N2(Re)));
 }
 var U = ["children", "onIndexChange", "onVisibleChange"];
 var G = { images: [], visible: false, index: 0 };
 function J(t2) {
-  var r2 = t2.children, i2 = t2.onIndexChange, o2 = t2.onVisibleChange, c2 = h(t2, U), u2 = g(G), l2 = u2[0], s2 = u2[1], d2 = (0, import_react8.useRef)(0), v2 = l2.images, w2 = l2.visible, y2 = l2.index, x2 = m({ nextId: function() {
+  var r2 = t2.children, i2 = t2.onIndexChange, o2 = t2.onVisibleChange, c2 = h(t2, U), u2 = g(G), l2 = u2[0], s2 = u2[1], d2 = (0, import_react9.useRef)(0), v2 = l2.images, w2 = l2.visible, y2 = l2.index, x2 = m({ nextId: function() {
     return d2.current += 1;
   }, update: function(e2) {
     var n2 = v2.findIndex(function(n3) {
@@ -5820,16 +5941,16 @@ function J(t2) {
     s2({ visible: false }), o2 && o2(false, y2, l2);
   }, changeIndex: function(e2) {
     s2({ index: e2 }), i2 && i2(e2, l2);
-  } }), b2 = (0, import_react8.useMemo)(function() {
+  } }), b2 = (0, import_react9.useMemo)(function() {
     return f({}, l2, x2);
   }, [l2, x2]);
-  return import_react8.default.createElement(p.Provider, { value: b2 }, r2, import_react8.default.createElement(K, f({ images: v2, visible: w2, index: y2, onIndexChange: C2.changeIndex, onClose: C2.close }, c2)));
+  return import_react9.default.createElement(p.Provider, { value: b2 }, r2, import_react9.default.createElement(K, f({ images: v2, visible: w2, index: y2, onIndexChange: C2.changeIndex, onClose: C2.close }, c2)));
 }
 var Q = function(e2) {
-  var t2, r2, o2 = e2.src, c2 = e2.render, u2 = e2.overlay, v2 = e2.width, h2 = e2.height, g2 = e2.triggers, w2 = void 0 === g2 ? ["onClick"] : g2, y2 = e2.children, x2 = (0, import_react8.useContext)(p), C2 = (t2 = function() {
+  var t2, r2, o2 = e2.src, c2 = e2.render, u2 = e2.overlay, v2 = e2.width, h2 = e2.height, g2 = e2.triggers, w2 = void 0 === g2 ? ["onClick"] : g2, y2 = e2.children, x2 = (0, import_react9.useContext)(p), C2 = (t2 = function() {
     return x2.nextId();
-  }, (r2 = (0, import_react8.useRef)({ sign: false, fn: void 0 }).current).sign || (r2.sign = true, r2.fn = t2()), r2.fn), b2 = (0, import_react8.useRef)(null);
-  (0, import_react8.useEffect)(function() {
+  }, (r2 = (0, import_react9.useRef)({ sign: false, fn: void 0 }).current).sign || (r2.sign = true, r2.fn = t2()), r2.fn), b2 = (0, import_react9.useRef)(null);
+  (0, import_react9.useEffect)(function() {
     return function() {
       x2.remove(C2);
     };
@@ -5843,23 +5964,23 @@ var Q = function(e2) {
         t3 && t3(n3);
       }
     }(e3, n2);
-  } }), k2 = (0, import_react8.useMemo)(function() {
+  } }), k2 = (0, import_react9.useMemo)(function() {
     var e3 = {};
     return w2.forEach(function(n2) {
       e3[n2] = E2.show.bind(null, n2);
     }), e3;
   }, []);
-  return (0, import_react8.useEffect)(function() {
+  return (0, import_react9.useEffect)(function() {
     x2.update({ key: C2, src: o2, originRef: b2, render: E2.render, overlay: u2, width: v2, height: h2 });
-  }, [o2]), y2 ? import_react8.Children.only((0, import_react8.cloneElement)(y2, f({}, k2, { ref: b2 }))) : null;
+  }, [o2]), y2 ? import_react9.Children.only((0, import_react9.cloneElement)(y2, f({}, k2, { ref: b2 }))) : null;
 };
 
 // app/components/Gallery/Gallery.tsx
-var import_jsx_dev_runtime10 = __toESM(require_jsx_dev_runtime());
+var import_jsx_dev_runtime11 = __toESM(require_jsx_dev_runtime());
 var Gallery = ({ photos: photos2 }) => {
-  const [containerWidth, setContainerWidth] = (0, import_react9.useState)(0);
-  const galleryEl = (0, import_react9.useRef)(null);
-  (0, import_react9.useLayoutEffect)(() => {
+  const [containerWidth, setContainerWidth] = (0, import_react10.useState)(0);
+  const galleryEl = (0, import_react10.useRef)(null);
+  (0, import_react10.useLayoutEffect)(() => {
     let animationFrameID = null;
     const observer = new ResizeObserver((entries) => {
       const newWidth = entries[0].contentRect.width;
@@ -5880,7 +6001,7 @@ var Gallery = ({ photos: photos2 }) => {
     };
   });
   if (!containerWidth)
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { ref: galleryEl, children: "\xA0" }, void 0, false, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { ref: galleryEl, children: "\xA0" }, void 0, false, {
       fileName: "app/components/Gallery/Gallery.tsx",
       lineNumber: 52,
       columnNumber: 31
@@ -5898,8 +6019,8 @@ var Gallery = ({ photos: photos2 }) => {
     margin: 2,
     photos: photos2
   });
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(J, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { ref: galleryEl, className: "flex flex-wrap", children: thumbs.map((thumb, index) => {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(Q, { src: thumb.src, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(J, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { ref: galleryEl, className: "flex flex-wrap", children: thumbs.map((thumb, index) => {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Q, { src: thumb.src, children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
       "img",
       {
         src: thumb.src,
@@ -5934,7 +6055,7 @@ var Gallery = ({ photos: photos2 }) => {
 var Gallery_default = Gallery;
 
 // app/components/GalleryPhotos.tsx
-var import_jsx_dev_runtime11 = __toESM(require_jsx_dev_runtime());
+var import_jsx_dev_runtime12 = __toESM(require_jsx_dev_runtime());
 var photos = [
   {
     src: foto1_default,
@@ -5993,18 +6114,18 @@ var photos = [
 ];
 var isHydrating = true;
 var GalleryPhotos = () => {
-  let [isHydrated, setIsHydrated] = (0, import_react10.useState)(!isHydrating);
-  (0, import_react10.useEffect)(() => {
+  let [isHydrated, setIsHydrated] = (0, import_react11.useState)(!isHydrating);
+  (0, import_react11.useEffect)(() => {
     isHydrating = false;
     setIsHydrated(true);
   }, []);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-6 text-gray-700", children: "Momentos" }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-6 text-gray-700", children: "Momentos" }, void 0, false, {
       fileName: "app/components/GalleryPhotos.tsx",
       lineNumber: 83,
       columnNumber: 7
     }, this),
-    isHydrated ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "w-full overflow-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(Gallery_default, { photos }, void 0, false, {
+    isHydrated ? /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "w-full overflow-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Gallery_default, { photos }, void 0, false, {
       fileName: "app/components/GalleryPhotos.tsx",
       lineNumber: 88,
       columnNumber: 11
@@ -6027,66 +6148,66 @@ init_dirname();
 init_filename();
 init_buffer();
 init_process();
-var import_jsx_dev_runtime12 = __toESM(require_jsx_dev_runtime());
+var import_jsx_dev_runtime13 = __toESM(require_jsx_dev_runtime());
 var Prayer = () => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-3xl mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "mt-12 text-center font-medium font-head text-gray-600 italic mx-3", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor es paciente y bondadoso." }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "max-w-3xl mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mt-12 text-center font-medium font-head text-gray-600 italic mx-3", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "El amor es paciente y bondadoso." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 8,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no es envidioso." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "El amor no es envidioso." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 11,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "No es presumido ni orgulloso." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "No es presumido ni orgulloso." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 14,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no es descort\xE9s ni ego\xEDsta." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "El amor no es descort\xE9s ni ego\xEDsta." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 17,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "No se enoja f\xE1cilmente." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "No se enoja f\xE1cilmente." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 20,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no lleva cuenta de las ofensas." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "El amor no lleva cuenta de las ofensas." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 23,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "No se alegra de la injusticia, sino de la verdad." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "No se alegra de la injusticia, sino de la verdad." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 26,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor acepta todo con paciencia." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "El amor acepta todo con paciencia." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 29,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Siempre conf\xEDa." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "Siempre conf\xEDa." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 32,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Nunca pierde la esperanza." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "Nunca pierde la esperanza." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 35,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Todo lo soporta." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "Todo lo soporta." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 38,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "El amor no tiene fin." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "El amor no tiene fin." }, void 0, false, {
         fileName: "app/components/Prayer.tsx",
         lineNumber: 41,
         columnNumber: 11
@@ -6096,7 +6217,7 @@ var Prayer = () => {
       lineNumber: 7,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "text-center text-lg font-semibold text-gray-700 font-script", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("p", { children: "Corintios 13:4-8" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "text-center text-lg font-semibold text-gray-700 font-script", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("p", { children: "Corintios 13:4-8" }, void 0, false, {
       fileName: "app/components/Prayer.tsx",
       lineNumber: 46,
       columnNumber: 11
@@ -6118,7 +6239,7 @@ var Prayer = () => {
 var Prayer_default = Prayer;
 
 // app/routes/_index.tsx
-var import_jsx_dev_runtime13 = __toESM(require_jsx_dev_runtime());
+var import_jsx_dev_runtime14 = __toESM(require_jsx_dev_runtime());
 var meta = () => {
   return [
     {
@@ -6152,9 +6273,9 @@ var meta = () => {
 function Index() {
   const { ENV } = useLoaderData();
   const isSmallScreen = (0, import_react_responsive.useMediaQuery)({ query: `(max-width: 768px)` });
-  const [openWelcome, setOpenWelcome] = (0, import_react12.useState)(true);
-  const [isMobile, setIsMobile] = (0, import_react12.useState)(false);
-  (0, import_react12.useEffect)(() => {
+  const [openWelcome, setOpenWelcome] = (0, import_react13.useState)(true);
+  const [isMobile, setIsMobile] = (0, import_react13.useState)(false);
+  (0, import_react13.useEffect)(() => {
     document.body.style.overflow = "hidden";
   }, []);
   const onCloseWelcomeModal = () => {
@@ -6162,28 +6283,28 @@ function Index() {
     document.body.style.overflow = "auto";
     window.scrollTo({ top: 0 });
   };
-  (0, import_react12.useEffect)(() => {
+  (0, import_react13.useEffect)(() => {
     setIsMobile(isSmallScreen);
   }, [isSmallScreen]);
   const thisYear = (/* @__PURE__ */ new Date()).getFullYear();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
     "div",
     {
       style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" },
       className: "bg-background-2",
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(WelcomeModal, { isOpen: openWelcome, onClose: onCloseWelcomeModal }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(WelcomeModal, { isOpen: openWelcome, onClose: onCloseWelcomeModal }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 88,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
           "div",
           {
             className: "flex justify-center items-center h-screen md:h-[750px] bg-no-repeat bg-center bg-cover",
             style: { backgroundImage: `url(${isMobile ? hero_bg_mobile_default : hero_bg_default})` },
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-1", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mb-1", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
                 "h4",
                 {
                   className: "text-center font-head font-bold text-5xl mb-4 text-[#EFEFEF]",
@@ -6199,7 +6320,7 @@ function Index() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
                 "div",
                 {
                   className: "text-center font-black font-sans text-md text-[#EFEFEF] italic border-t-2 border-[#B7410E] pt-3",
@@ -6230,7 +6351,7 @@ function Index() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Prayer_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Prayer_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 111,
           columnNumber: 9
@@ -6239,7 +6360,7 @@ function Index() {
           lineNumber: 110,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(BrideAndGroom_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(BrideAndGroom_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 115,
           columnNumber: 9
@@ -6248,7 +6369,7 @@ function Index() {
           lineNumber: 114,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mt-12 mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Agendas_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mt-12 mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Agendas_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 119,
           columnNumber: 9
@@ -6257,7 +6378,7 @@ function Index() {
           lineNumber: 118,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Countdown_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Countdown_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 123,
           columnNumber: 9
@@ -6266,7 +6387,7 @@ function Index() {
           lineNumber: 122,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(LocationMap_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "mb-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(LocationMap_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 127,
           columnNumber: 9
@@ -6275,7 +6396,7 @@ function Index() {
           lineNumber: 126,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(GalleryPhotos_default, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-24", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(GalleryPhotos_default, {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 131,
           columnNumber: 9
@@ -6284,7 +6405,7 @@ function Index() {
           lineNumber: 130,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(Message_default, { isMobile }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(GoogleOAuthProvider, { clientId: ENV.GOOGLE_CLIENT_ID, children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-36 bg-background", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Message_default, { isMobile }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 136,
           columnNumber: 11
@@ -6297,11 +6418,20 @@ function Index() {
           lineNumber: 134,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "py-24 bg-background text-gray-700 relative text-center font-sans", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(SectionWrapper_default, { className: "mb-36", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(DigitalEnvelope_default, {}, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 141,
+          columnNumber: 9
+        }, this) }, void 0, false, {
+          fileName: "app/routes/_index.tsx",
+          lineNumber: 140,
+          columnNumber: 7
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "py-24 bg-background text-gray-700 relative text-center font-sans", children: [
           "\xA9 ",
           thisYear,
           " by ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("span", { className: "font-semibold", children: "Jared" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { className: "font-semibold", children: "Jared" }, void 0, false, {
             fileName: "app/routes/_index.tsx",
             lineNumber: 145,
             columnNumber: 25
@@ -6311,7 +6441,7 @@ function Index() {
           lineNumber: 144,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(MusicPlayer_default, { play: !openWelcome }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MusicPlayer_default, { play: !openWelcome }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 148,
           columnNumber: 7
@@ -6349,4 +6479,4 @@ react-responsive/dist/react-responsive.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=/build/routes/_index-FTYKIOSP.js.map
+//# sourceMappingURL=/build/routes/_index-HW65TLUU.js.map

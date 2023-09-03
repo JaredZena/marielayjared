@@ -132,14 +132,14 @@ export default function Index() {
       </SectionWrapper>
 
       <GoogleOAuthProvider clientId={ENV.GOOGLE_CLIENT_ID!}>
-        <SectionWrapper className="mb-36">
+        <SectionWrapper className="mb-36 bg-background">
           <Message isMobile={isMobile} />
         </SectionWrapper>
       </GoogleOAuthProvider>
 
-      {/* <SectionWrapper className="mb-36">
+      <SectionWrapper className="mb-36">
         <DigitalEnvelope />
-      </SectionWrapper> */}
+      </SectionWrapper>
 
       <div className="py-24 bg-background text-gray-700 relative text-center font-sans">
         © {thisYear} by <span className="font-semibold">Jared</span>

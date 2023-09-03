@@ -83,7 +83,7 @@ const Message = ({ isMobile }: MessageProps) => {
 
   return (
     <div>
-      <h4 className="text-3xl font-head font-bold text-center mb-10 md:mb-16 text-gray-700 px-4">
+      <h4 className="text-3xl font-head font-bold text-center mb-10 md:mb-16 pt-10 text-gray-700 px-4">
         Envianos tus mejores deseos
       </h4>
       <div className="w-full flex flex-wrap">

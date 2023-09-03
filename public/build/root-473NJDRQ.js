@@ -39,7 +39,7 @@ var updatedHref = typeof __INJECT_CSS_BUNDLE_HREF__ === "string" ? __INJECT_CSS_
 var cssBundleHref = updatedHref || assetsManifest.cssBundleHref;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-A5OXQSYG.css";
+var tailwind_default = "/build/_assets/tailwind-3D4ADLZM.css";
 
 // node_modules/react-photo-view/dist/react-photo-view.css
 var react_photo_view_default = "/build/_assets/react-photo-view-7Z2GU4I5.css";
@@ -149,4 +149,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-Z766OFTI.js.map
+//# sourceMappingURL=/build/root-473NJDRQ.js.map
