@@ -536,6 +536,9 @@ video {
 .max-w-md {
   max-width: 28rem;
 }
+.max-w-xs {
+  max-width: 20rem;
+}
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -666,6 +669,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[\#bf935c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 147 92 / var(--tw-bg-opacity));
 }
 .bg-cover {
   background-size: cover;
@@ -1022,6 +1029,9 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
+  .sm\:justify-evenly {
+    justify-content: space-evenly;
+  }
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1073,6 +1083,9 @@ video {
   .md\:w-\[500\] {
     width: 500;
   }
+  .md\:w-full {
+    width: 100%;
+  }
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1081,6 +1094,9 @@ video {
   }
   .md\:justify-start {
     justify-content: flex-start;
+  }
+  .md\:justify-evenly {
+    justify-content: space-evenly;
   }
   .md\:p-8 {
     padding: 2rem;
@@ -1133,8 +1149,16 @@ video {
   }
 }
 @media (min-width: 1024px) {
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
   .lg\:p-20 {
     padding: 5rem;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-66QEAHT7.css.map */
+@media (min-width: 1280px) {
+  .xl\:w-1\/4 {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=/build/_assets/tailwind-G6VCJQGS.css.map */

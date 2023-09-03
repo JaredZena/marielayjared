@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "2fb9a2c2", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-473NJDRQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-HW65TLUU.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-2FB9A2C2.js" };
+    assets_manifest_default = { version: "6e2822d2", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DANXAR7Q.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-6WKZUQ5V.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-6E2822D2.js" };
   }
 });
 
@@ -173,7 +173,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server()), import_react2 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-3D4ADLZM.css";
+var tailwind_default = "/build/_assets/tailwind-ZCFUYSH4.css";
 
 // node_modules/react-photo-view/dist/react-photo-view.css
 var react_photo_view_default = "/build/_assets/react-photo-view-7Z2GU4I5.css";
@@ -273,7 +273,7 @@ __export(index_exports, {
   loader: () => loader,
   meta: () => meta
 });
-var import_react12 = require("@remix-run/react"), import_react13 = require("react");
+var import_react11 = require("@remix-run/react"), import_react12 = require("react");
 
 // app/components/WelcomeModal.tsx
 var import_react3 = require("react"), import_react4 = require("@remix-run/react");
@@ -1191,9 +1191,6 @@ var import_react6 = require("react"), import_google = require("@react-oauth/goog
 // app/routes/_index.tsx
 var import_google2 = require("@react-oauth/google");
 
-// app/components/DigitalEnvelope.tsx
-var import_react8 = require("react");
-
 // app/images/gift-icon.svg
 var gift_icon_default = "/build/_assets/gift-icon-MPIUJZTH.svg";
 
@@ -1205,16 +1202,25 @@ var us_flag_default = "/build/_assets/us-flag-FHMK2PIM.png";
 
 // app/components/DigitalEnvelope.tsx
 var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), DigitalEnvelope = () => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-10 text-gray-700", children: "Mesa de Regalos" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-6 pt-10 text-gray-700", children: "Mesa de Regalos" }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
     lineNumber: 9,
     columnNumber: 7
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: " flex justify-evenly flex-col md:flex-row md:flex-wrap", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "mb-6 text-center font-medium font-head text-gray-600 mx-3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: "Si deseas enviarnos un regalo, lo puedes hacer desde los siguientes links, te lo agradeceremos mucho." }, void 0, !1, {
+    fileName: "app/components/DigitalEnvelope.tsx",
+    lineNumber: 14,
+    columnNumber: 11
+  }, this) }, void 0, !1, {
+    fileName: "app/components/DigitalEnvelope.tsx",
+    lineNumber: 13,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: " flex space-around sm:justify-evenly flex-col md:flex-row md:flex-wrap", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
       WishlistCard,
       {
-        wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=list_d_wl_lfu_nav_1",
+        wishlistUrl: "https://www.amazon.com/hz/wishlist/ls/BABY6SEGWONS?ref_=wl_share",
         flagImage: us_flag_default,
         name: "Amazon Wishlist US"
       },
@@ -1222,13 +1228,13 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), DigitalEnvelope
       !1,
       {
         fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 15,
+        lineNumber: 21,
         columnNumber: 11
       },
       this
     ) }, void 0, !1, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 14,
+      lineNumber: 20,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "px-4 mb-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1242,74 +1248,73 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), DigitalEnvelope
       !1,
       {
         fileName: "app/components/DigitalEnvelope.tsx",
-        lineNumber: 22,
+        lineNumber: 28,
         columnNumber: 11
       },
       this
     ) }, void 0, !1, {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 21,
+      lineNumber: 27,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 13,
+    lineNumber: 19,
     columnNumber: 7
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/DigitalEnvelope.tsx",
   lineNumber: 8,
   columnNumber: 5
-}, this), WishlistCard = ({ flagImage, name, wishlistUrl }) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "gift-card border rounded-lg shadow-md hover:shadow-lg transition duration-300", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { className: "gift-button", onClick: () => {
-  window.location.href = wishlistUrl;
+}, this), WishlistCard = ({ flagImage, name, wishlistUrl }) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "gift-card flex space around justify-evenly border rounded-lg shadow-md hover:shadow-lg text-white bg-[#B7410E] hover:bg-[#973B27] outline-[#974D2D] disabled:opacity-50 disabled:pointer-events-none cursor-pointer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { className: "gift-button w-full", onClick: () => {
+  window.open(wishlistUrl, "_blank");
 }, children: [
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
     "img",
     {
       src: gift_icon_default,
       alt: "Gift",
-      className: "w-48 h-48 rounded-full mb-8"
+      className: "w-48 h-48 rounded-full mx-auto"
     },
     void 0,
     !1,
     {
       fileName: "app/components/DigitalEnvelope.tsx",
-      lineNumber: 48,
+      lineNumber: 54,
       columnNumber: 7
     },
     this
   ),
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("img", { className: "flag-image mx-auto", src: flagImage, alt: "Country Flag" }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 53,
+    lineNumber: 59,
     columnNumber: 9
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "name", children: name }, void 0, !1, {
     fileName: "app/components/DigitalEnvelope.tsx",
-    lineNumber: 54,
+    lineNumber: 60,
     columnNumber: 9
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/DigitalEnvelope.tsx",
-  lineNumber: 47,
+  lineNumber: 53,
   columnNumber: 7
 }, this) }, void 0, !1, {
   fileName: "app/components/DigitalEnvelope.tsx",
-  lineNumber: 46,
+  lineNumber: 52,
   columnNumber: 5
-}, this);
-var DigitalEnvelope_default = DigitalEnvelope;
+}, this), DigitalEnvelope_default = DigitalEnvelope;
 
 // app/components/MusicPlayer.tsx
-var import_react9 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), MusicPlayer = ({ play: playParent }) => {
-  let [play, setPlay] = (0, import_react9.useState)(!1), audio = (0, import_react9.useRef)(null), onPlay = async () => {
+var import_react8 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), MusicPlayer = ({ play: playParent }) => {
+  let [play, setPlay] = (0, import_react8.useState)(!1), audio = (0, import_react8.useRef)(null), onPlay = async () => {
     audio.current && (await audio.current.play(), setPlay(!0));
   }, onPause = async () => {
     audio.current && (audio.current.pause(), setPlay(!1));
   };
-  return (0, import_react9.useEffect)(() => {
+  return (0, import_react8.useEffect)(() => {
     playParent ? onPlay() : onPause();
-  }, [playParent]), /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react9.Fragment, { children: [
+  }, [playParent]), /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_react8.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("audio", { controls: !0, ref: audio, loop: !0, hidden: !0, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("source", { src: "/wedding.mp3", type: "audio/mp3" }, void 0, !1, {
         fileName: "app/components/MusicPlayer.tsx",
@@ -1360,7 +1365,7 @@ var import_react9 = require("react"), import_jsx_dev_runtime12 = require("react/
 var ogimage_default = "/build/_assets/ogimage-QSSW72EG.jpg";
 
 // app/components/GalleryPhotos.tsx
-var import_react11 = require("react");
+var import_react10 = require("react");
 
 // app/images/foto1.jpg
 var foto1_default = "/build/_assets/foto1-QA6R77NZ.jpg";
@@ -1390,7 +1395,7 @@ var foto8_default = "/build/_assets/foto8-EX535T3I.jpg";
 var foto9_default = "/build/_assets/foto9-OV6ERFHT.jpg";
 
 // app/components/Gallery/Gallery.tsx
-var import_react10 = require("react");
+var import_react9 = require("react");
 
 // app/components/Gallery/Utils/binary-heap.ts
 var BinaryHeap = class {
@@ -1529,8 +1534,8 @@ var findIdealNodeSearch = ({
 
 // app/components/Gallery/Gallery.tsx
 var import_react_photo_view2 = require("react-photo-view"), import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), Gallery = ({ photos: photos2 }) => {
-  let [containerWidth, setContainerWidth] = (0, import_react10.useState)(0), galleryEl = (0, import_react10.useRef)(null);
-  if ((0, import_react10.useLayoutEffect)(() => {
+  let [containerWidth, setContainerWidth] = (0, import_react9.useState)(0), galleryEl = (0, import_react9.useRef)(null);
+  if ((0, import_react9.useLayoutEffect)(() => {
     let animationFrameID = null, observer = new ResizeObserver((entries) => {
       let newWidth = entries[0].contentRect.width;
       containerWidth !== newWidth && (animationFrameID = window.requestAnimationFrame(() => {
@@ -1644,8 +1649,8 @@ var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), photos = [
     alt: "pic 9"
   }
 ], isHydrating = !0, GalleryPhotos = () => {
-  let [isHydrated, setIsHydrated] = (0, import_react11.useState)(!isHydrating);
-  return (0, import_react11.useEffect)(() => {
+  let [isHydrated, setIsHydrated] = (0, import_react10.useState)(!isHydrating);
+  return (0, import_react10.useEffect)(() => {
     isHydrating = !1, setIsHydrated(!0);
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "w-full px-1 md:px-4", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h4", { className: "text-3xl font-head font-bold text-center mb-14 pt-6 text-gray-700", children: "Momentos" }, void 0, !1, {
@@ -1786,14 +1791,14 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), meta = () => [
   }
 ], loader = indexLoader, action = indexAction;
 function Index() {
-  let { ENV } = (0, import_react12.useLoaderData)(), isSmallScreen = (0, import_react_responsive.useMediaQuery)({ query: "(max-width: 768px)" }), [openWelcome, setOpenWelcome] = (0, import_react13.useState)(!0), [isMobile, setIsMobile] = (0, import_react13.useState)(!1);
-  (0, import_react13.useEffect)(() => {
+  let { ENV } = (0, import_react11.useLoaderData)(), isSmallScreen = (0, import_react_responsive.useMediaQuery)({ query: "(max-width: 768px)" }), [openWelcome, setOpenWelcome] = (0, import_react12.useState)(!0), [isMobile, setIsMobile] = (0, import_react12.useState)(!1);
+  (0, import_react12.useEffect)(() => {
     document.body.style.overflow = "hidden";
   }, []);
   let onCloseWelcomeModal = () => {
     setOpenWelcome(!1), document.body.style.overflow = "auto", window.scrollTo({ top: 0 });
   };
-  (0, import_react13.useEffect)(() => {
+  (0, import_react12.useEffect)(() => {
     setIsMobile(isSmallScreen);
   }, [isSmallScreen]);
   let thisYear = (/* @__PURE__ */ new Date()).getFullYear();
