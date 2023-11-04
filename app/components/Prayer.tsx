@@ -4,7 +4,7 @@ const Prayer = () => {
   return (
     <div className="max-w-3xl mx-auto text-center">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="mt-12 text-center font-medium font-head text-gray-600 italic mx-3">
+        <div className="mt-12 text-center font-medium font-head text-gray-500 italic mx-3">
           <p>
             El amor es paciente y bondadoso.
           </p>
@@ -42,7 +42,7 @@ const Prayer = () => {
             El amor no tiene fin.
           </p>
         </div>
-        <div className="text-center text-lg font-semibold text-gray-700 font-script">
+        <div className="mt-2 text-center text-lg font-medium font-head text-gray-900 italic">
           <p>Corintios 13:4-8</p>
         </div>
       </div>

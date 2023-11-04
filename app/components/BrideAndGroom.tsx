@@ -4,8 +4,8 @@ import groom from "~/images/jared-img.png";
 
 const BrideAndGroom = () => {
   return (
-    <div className="pt-20 pb-4">
-      <h3 className="text-3xl text-center font-sans font-bold text-gray-700 mb-6">
+    <div className="pt-10 pb-4">
+      <h3 className="text-3xl font-head font-bold text-center text-gray-700">
         Nuestra boda
       </h3>
       <div className="w-full flex flex-wrap">

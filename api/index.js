@@ -34,7 +34,7 @@ __export(assets_manifest_exports, {
 });
 var assets_manifest_default, init_assets_manifest = __esm({
   "server-assets-manifest:@remix-run/dev/assets-manifest"() {
-    assets_manifest_default = { version: "c5bb0203", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Z36NZORM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-OVYLNBQN.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-C5BB0203.js" };
+    assets_manifest_default = { version: "2ef9c025", entry: { module: "/build/entry.client-4GHSCAJ2.js", imports: ["/build/_shared/chunk-FQ3SI4AI.js", "/build/_shared/chunk-VLYZ26UA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NP76VQDQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-EESPE5IK.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-2EF9C025.js" };
   }
 });
 
@@ -173,7 +173,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_server()), import_react2 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-H2QIZSGQ.css";
+var tailwind_default = "/build/_assets/tailwind-SDA4PKZ4.css";
 
 // node_modules/react-photo-view/dist/react-photo-view.css
 var react_photo_view_default = "/build/_assets/react-photo-view-7Z2GU4I5.css";
@@ -481,10 +481,10 @@ var indexLoader = async ({ request }) => {
 var import_react_responsive = require("react-responsive");
 
 // app/images/hero-bg.jpg
-var hero_bg_default = "/build/_assets/hero-bg-DLVUPJM7.jpg";
+var hero_bg_default = "/build/_assets/hero-bg-J63TKZAO.jpg";
 
 // app/images/hero-bg-mobile.jpg
-var hero_bg_mobile_default = "/build/_assets/hero-bg-mobile-YXPBS2MA.jpg";
+var hero_bg_mobile_default = "/build/_assets/hero-bg-mobile-FQTDZAWT.jpg";
 
 // app/components/Utils/SectionWrapper.tsx
 var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), SectionWrapper = ({ children, className }) => /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className, children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "max-w-7xl mx-auto px-0 md:px-16", children }, void 0, !1, {
@@ -498,14 +498,14 @@ var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), SectionWrapper =
 }, this), SectionWrapper_default = SectionWrapper;
 
 // app/images/mariela-img.png
-var mariela_img_default = "/build/_assets/mariela-img-EANRWFON.png";
+var mariela_img_default = "/build/_assets/mariela-img-XEVGPFKD.png";
 
 // app/images/jared-img.png
-var jared_img_default = "/build/_assets/jared-img-HZWCPL5F.png";
+var jared_img_default = "/build/_assets/jared-img-U5ZH2WH2.png";
 
 // app/components/BrideAndGroom.tsx
-var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), BrideAndGroom = () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "pt-20 pb-4", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h3", { className: "text-3xl text-center font-sans font-bold text-gray-700 mb-6", children: "Nuestra boda" }, void 0, !1, {
+var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), BrideAndGroom = () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "pt-10 pb-4", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h3", { className: "text-3xl font-head font-bold text-center text-gray-700", children: "Nuestra boda" }, void 0, !1, {
     fileName: "app/components/BrideAndGroom.tsx",
     lineNumber: 8,
     columnNumber: 7
@@ -1343,37 +1343,37 @@ var import_react8 = require("react"), import_jsx_dev_runtime12 = require("react/
 }, MusicPlayer_default = MusicPlayer;
 
 // app/images/ogimage.jpg
-var ogimage_default = "/build/_assets/ogimage-QSSW72EG.jpg";
+var ogimage_default = "/build/_assets/ogimage-E5BLCCJM.jpg";
 
 // app/components/GalleryPhotos.tsx
 var import_react10 = require("react");
 
 // app/images/foto1.jpg
-var foto1_default = "/build/_assets/foto1-QA6R77NZ.jpg";
+var foto1_default = "/build/_assets/foto1-KVOMFFAI.jpg";
 
 // app/images/foto2.jpg
-var foto2_default = "/build/_assets/foto2-MBQIHDD5.jpg";
+var foto2_default = "/build/_assets/foto2-4SEB7AB3.jpg";
 
 // app/images/foto3.jpg
-var foto3_default = "/build/_assets/foto3-HD23NNAF.jpg";
+var foto3_default = "/build/_assets/foto3-NZHZYCZ5.jpg";
 
 // app/images/foto4.jpg
-var foto4_default = "/build/_assets/foto4-BNEYWVA6.jpg";
+var foto4_default = "/build/_assets/foto4-6AUFONCG.jpg";
 
 // app/images/foto5.jpg
-var foto5_default = "/build/_assets/foto5-ZK24NBNH.jpg";
+var foto5_default = "/build/_assets/foto5-ABDSXPYV.jpg";
 
 // app/images/foto6.jpg
-var foto6_default = "/build/_assets/foto6-HFQHIRNR.jpg";
+var foto6_default = "/build/_assets/foto6-STRKY35B.jpg";
 
 // app/images/foto7.jpg
-var foto7_default = "/build/_assets/foto7-JUXZGTQV.jpg";
+var foto7_default = "/build/_assets/foto7-PYCDMVIG.jpg";
 
 // app/images/foto8.jpg
-var foto8_default = "/build/_assets/foto8-EX535T3I.jpg";
+var foto8_default = "/build/_assets/foto8-QICPBSQM.jpg";
 
 // app/images/foto9.jpg
-var foto9_default = "/build/_assets/foto9-OV6ERFHT.jpg";
+var foto9_default = "/build/_assets/foto9-JRVLCQZG.jpg";
 
 // app/components/Gallery/Gallery.tsx
 var import_react9 = require("react");
@@ -1657,7 +1657,7 @@ var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), photos = [
 
 // app/components/Prayer.tsx
 var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), Prayer = () => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "max-w-3xl mx-auto text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "max-w-4xl mx-auto px-4", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mt-12 text-center font-medium font-head text-gray-600 italic mx-3", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mt-12 text-center font-medium font-head text-gray-500 italic mx-3", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "El amor es paciente y bondadoso." }, void 0, !1, {
       fileName: "app/components/Prayer.tsx",
       lineNumber: 8,
@@ -1723,7 +1723,7 @@ var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), Prayer = () => 
     lineNumber: 7,
     columnNumber: 9
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text-center text-lg font-semibold text-gray-700 font-script", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "Corintios 13:4-8" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "mt-2 text-center text-lg font-medium font-head text-gray-900 italic", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "Corintios 13:4-8" }, void 0, !1, {
     fileName: "app/components/Prayer.tsx",
     lineNumber: 46,
     columnNumber: 11
